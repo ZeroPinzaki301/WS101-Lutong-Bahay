@@ -1,0 +1,178 @@
+[
+    
+{
+    "dishId" : 1,
+    "dishtype" : "pork",
+    "name" : "Pork Adobo",
+    "ingredients" : 
+    ["500g pork belly, (chunked)",
+     "1/2 cup soy sauce",
+     "1 onion (chopped)",
+     "6 cloves garlic (minced)",
+     "3pcs bay leaves",
+     "1 teaspoon peppercorns",
+     "1.2 cup water",
+     "2 tablespoons cooking oil", 
+     "1 tablespoon salt", 
+     "1 tablespoon pepper"],
+     "procedure" : 
+    [
+        "Marinate the pork in soy sauce vinegar, garlic, bay leaves, and peppercorns for at least 30 minutes.",
+        "Heat oil in a pot and sauté the onions and garlic until fragrant.",
+        "Add he pork and cook until browned.",
+        "Add the marinade, water, and bring to a boil",
+        "Lower the heat and simmer for 40-50 minutes or until the meat is tender", 
+        "Season with salt and pepper to taste and serve with rice"
+    ],
+     "img-path" : "assets/dish-img/pork-1.jpg"
+},
+
+{
+    "dishId" : 2,
+    "dishtype" : "Pork",
+    "name" : "Pork Sisig",
+    "ingredients" : 
+    [
+        "500g pork belly (or face), boiled and chopped into small pieces",
+        "1 onion, finely chopped",
+        "1 red chili, finely chopped",
+        "1 green chili, finely chopped",
+        "1 tablespoon soy sauce",
+        "1 tablespoon vinegar",
+        "1 teaspoon calamansi or lemon juice",
+        "Salt and pepper to taste",
+        "1 tablespoon mayonnaise (optional, for creaminess)",
+        "1 egg (optional)",
+        "1 tablespoon cooking oil"
+    ],
+     "procedure" : 
+    [
+        "Boil the pork belly or pork face until tender. Drain and chop into small pieces.",
+        "Heat oil in a pan and sauté the onions and chilies until softened.",
+        "Add the chopped pork, soy sauce, vinegar, and calamansi juice.",
+        "Stir well and cook for a few minutes.",
+        "Season with salt and pepper to taste.",
+        "If you like it creamy, add mayonnaise and stir.",
+        "Serve the sisig on a sizzling plate and top with a raw egg (optional).",
+        "Serve with steamed rice."
+    ],
+     "img-path" : "assets/dish-img/chicken-1.jpg"
+},
+
+{
+    "dishId" : 3,
+    "dishtype" : "Pork",
+    "name" : "Pork Menudo",
+    "ingredients" : 
+    [
+        "500g pork, cut into cubes",
+        "1/2 cup pork liver, cut into cubes",
+        "1 potato, diced",
+        "1 carrot, diced",
+        "1/2 cup green peas",
+        "1/2 cup bell pepper, diced",
+        "1 onion, chopped",
+        "4 cloves garlic, minced",
+        "2 tomatoes, chopped",
+        "1/4 cup soy sauce",
+        "1/4 cup tomato sauce",
+        "1/4 cup raisins",
+        "1 cup water or broth",
+        "Salt and pepper to taste",
+        "1 tablespoon cooking oil"
+      ],
+     "procedure" : 
+    [
+        "Heat oil in a pot and sauté the garlic, onions, and tomatoes until soft.",
+        "Add the pork and cook until it turns brown.",
+        "Add the pork liver and cook for 5 minutes.",
+        "Add the soy sauce, tomato sauce, and water. Stir well and simmer for 10 minutes.",
+        "Add the potatoes, carrots, bell peppers, and green peas. Continue cooking until vegetables are tender.",
+        "Season with salt, pepper, and raisins.",
+        "Simmer for an additional 10 minutes before serving."
+    ],
+     "img-path" : "assets/dish-img/chicken-1.jpg"
+},
+
+{
+    "dishId" : 4,
+    "dishtype" : "Pork",
+    "name" : "Lechon Kawali",
+    "ingredients" : 
+    [
+        "1 kg pork belly",
+        "1 onion, quartered",
+        "5 cloves garlic, smashed",
+        "2 bay leaves",
+        "1 tablespoon peppercorns",
+        "Salt to taste",
+        "Oil for frying"
+    ],
+     "procedure" : 
+    [
+        "Boil the pork belly in a pot of water with onion, garlic, bay leaves, peppercorns, and salt.",
+        "Boil for about 45 minutes or until tender.",
+        "Let the pork belly cool, then pat dry.",
+        "Heat oil in a deep pan and fry the pork belly until golden and crispy.",
+        "Slice the pork into bite-sized pieces and serve with dipping sauce."
+    ],
+     "img-path" : "assets/dish-img/chicken-1.jpg"
+},
+
+{
+    "dishId" : 5,
+    "dishtype" : "Pork",
+    "name" : "Pork Nilaga",
+    "ingredients" : 
+    [
+        "500g pork (preferably pork belly or bone-in cuts)",
+        "1 onion, quartered",
+        "3 cloves garlic, crushed",
+        "2 potatoes, quartered",
+        "1 corn on the cob, cut into pieces",
+        "1 bundle of pechay (bok choy)",
+        "1 bunch string beans (sitaw)",
+        "Salt and pepper to taste",
+        "Water"
+    ],
+     "procedure" : 
+    [
+        "In a large pot, combine pork, onion, garlic, and enough water to cover the meat.",
+        "Boil for 1-1.5 hours until the pork is tender.",
+        "Add potatoes and corn, and cook for another 10-15 minutes.",
+        "Add the string beans and pechay. Simmer for another 5 minutes.",
+        "Season with salt and pepper, and serve."
+    ],
+     "img-path" : "assets/dish-img/chicken-1.jpg"
+},
+
+{
+    "dishId" : 6,
+    "dishtype" : "Pork",
+    "name" : "Pork Dinuguan",
+    "ingredients" : 
+    [
+        "500g pork (liver, heart, or belly), cut into chunks",
+        "1 cup pork blood (available in Asian markets)",
+        "1 onion, chopped",
+        "5 cloves garlic, minced",
+        "2 green chilies, chopped",
+        "1 tablespoon vinegar",
+        "2 cups water or broth",
+        "Salt and pepper to taste",
+        "Cooking oil"
+    ],
+     "procedure" : 
+    [
+        "Heat oil in a pot and sauté the garlic, onions, and chilies until fragrant.",
+        "Add the pork and cook until browned.",
+        "Pour in the vinegar and let it simmer for 5 minutes to cook off the vinegar.",
+        "Add the pork blood and water or broth. Stir gently to combine.",
+        "Simmer for 30-40 minutes or until the pork is tender.",
+        "Season with salt and pepper, and serve hot."
+    ],
+     "img-path" : "assets/dish-img/chicken-1.jpg"
+}
+
+
+]
