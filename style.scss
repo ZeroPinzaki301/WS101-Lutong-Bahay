@@ -313,6 +313,8 @@ header {
     min-height: 85vh;
     color: white;
     background-size: cover;
+    background-position: center;
+    object-fit: cover;
 
     .container {
         max-width: 1200px;
@@ -327,8 +329,7 @@ header {
             top: 0;
             left: 0;
             min-height: 84vh;
-            background: rgba(0, 0, 0, 0.5); // Dark overlay for better readability
-            z-index: 1;
+            background: rgba(0, 0, 0, 0.5);
         }
 
         h2 {
@@ -360,7 +361,7 @@ header {
             font-family: kurale;
 
             span {
-                margin-top: 5px; // Moves "for every category" down slightly
+                margin-top: 5px; 
                 padding-left: 7%;
             }
         }
@@ -368,8 +369,8 @@ header {
 }
 #top-dish {
     background-color: black;
-    text-align: center; /* Center the text and elements inside */
-    padding-bottom: 50px; /* Add padding to the bottom */
+    text-align: center;
+    padding-bottom: 50px;
 
     .wrapper {
         max-height: 350px; /* Adjusted max-height */
@@ -381,24 +382,53 @@ header {
         padding: 20px; /* Add padding if needed */
         margin: 0 auto; /* Center the wrapper container */
         width: calc(250px * 4 + 20px * 5 + 40px); /* Width for 4 images + margins + padding */
+        transition: 0.5s; /* Smooth transition */
+        cursor: pointer;
     }
 
     .wrapper::-webkit-scrollbar {
         width: 0;
     }
 
+    .dish-container {
+        position: relative; /* Ensure the read-more is positioned relative to the container */
+    }
+
     .dishImg {
-        width: 235px; /* Increased width */
-        height: 300px; /* Increased height */
-        object-fit: cover; /* Cover the container while maintaining aspect ratio */
-        border-radius: 15px; /* Add border radius if needed */
-        margin: 0 1em; /* Add margin between images */
+        width: 235px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin: 0 1em;
+        transition: 1000ms;
+    }
+
+    .dishImg:hover {
+        transform: scale(1.05);
+        opacity: 0.5;
+    }
+
+    .read-more {
+        display: none; /* Hide by default */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .dish-container:hover .read-more {
+        display: block; /* Show on hover */
     }
 
     .dishText {
         color: white;
-        margin-top: 10px; /* Space between image and text */
-        font-size: 1em; /* Adjust font size as needed */
+        margin-top: 10px;
+        font-size: 1em;
     }
 
     hr.line {
@@ -407,6 +437,17 @@ header {
         margin: 0 auto 50px auto; /* Centers the hr element */
         background-position: center;
         position: relative; /* Ensure the pseudo-element is positioned relative to the hr */
+        font-family: kurale;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: -20px; /* Adjust the position as needed */
+            left: 0;
+            width: 100%;
+            height: 20px; /* Adjust the height as needed */
+            background-color: black; /* Black background color */
+        }
     }
 
     h2 {

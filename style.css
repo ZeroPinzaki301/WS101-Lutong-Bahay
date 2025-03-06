@@ -265,6 +265,8 @@ header .web-tagline {
   min-height: 85vh;
   color: white;
   background-size: cover;
+  background-position: center;
+  object-fit: cover;
 }
 #favorites .container {
   max-width: 1200px;
@@ -280,7 +282,6 @@ header .web-tagline {
   left: 0;
   min-height: 84vh;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
 }
 #favorites .container h2 {
   font-size: 6em;
@@ -315,8 +316,8 @@ header .web-tagline {
 
 #top-dish {
   background-color: black;
-  text-align: center; /* Center the text and elements inside */
-  padding-bottom: 50px; /* Add padding to the bottom */
+  text-align: center;
+  padding-bottom: 50px;
 }
 #top-dish .wrapper {
   max-height: 350px; /* Adjusted max-height */
@@ -328,21 +329,46 @@ header .web-tagline {
   padding: 20px; /* Add padding if needed */
   margin: 0 auto; /* Center the wrapper container */
   width: 1140px; /* Width for 4 images + margins + padding */
+  transition: 0.5s; /* Smooth transition */
+  cursor: pointer;
 }
 #top-dish .wrapper::-webkit-scrollbar {
   width: 0;
 }
+#top-dish .dish-container {
+  position: relative; /* Ensure the read-more is positioned relative to the container */
+}
 #top-dish .dishImg {
-  width: 235px; /* Increased width */
-  height: 300px; /* Increased height */
-  object-fit: cover; /* Cover the container while maintaining aspect ratio */
-  border-radius: 15px; /* Add border radius if needed */
-  margin: 0 1em; /* Add margin between images */
+  width: 235px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: 0 1em;
+  transition: 1000ms;
+}
+#top-dish .dishImg:hover {
+  transform: scale(1.05);
+  opacity: 0.5;
+}
+#top-dish .read-more {
+  display: none; /* Hide by default */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#top-dish .dish-container:hover .read-more {
+  display: block; /* Show on hover */
 }
 #top-dish .dishText {
   color: white;
-  margin-top: 10px; /* Space between image and text */
-  font-size: 1em; /* Adjust font size as needed */
+  margin-top: 10px;
+  font-size: 1em;
 }
 #top-dish hr.line {
   width: 80%;
@@ -350,6 +376,16 @@ header .web-tagline {
   margin: 0 auto 50px auto; /* Centers the hr element */
   background-position: center;
   position: relative; /* Ensure the pseudo-element is positioned relative to the hr */
+  font-family: kurale;
+}
+#top-dish hr.line::before {
+  content: "";
+  position: absolute;
+  top: -20px; /* Adjust the position as needed */
+  left: 0;
+  width: 100%;
+  height: 20px; /* Adjust the height as needed */
+  background-color: black; /* Black background color */
 }
 #top-dish h2 {
   color: white;
