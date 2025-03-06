@@ -307,6 +307,113 @@ header {
 
 // favorites page - mark
 
+#favorites {
+    font-family: 'Kurale', serif;
+    background: url('assets/img/favoritesBG1.png');
+    min-height: 85vh;
+    color: white;
+    background-size: cover;
+
+    .container {
+        max-width: 1200px;
+        padding: 16px;
+        margin: auto;
+        position: relative;
+        z-index: 2;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 84vh;
+            background: rgba(0, 0, 0, 0.5); // Dark overlay for better readability
+            z-index: 1;
+        }
+
+        h2 {
+            font-size: 6em;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            padding-left: 12%;
+            margin-bottom: 10px; // Adjusts spacing
+        }
+
+        h1 {
+            font-size: 7em;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            padding-left: 3%;
+            margin-bottom: 30px;
+        }
+
+        .sub-text {
+            font-size: 2em;
+            font-weight: 300;
+            letter-spacing: 0.18em;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 60px;
+            padding-left: 3%;
+
+            span {
+                margin-top: 5px; // Moves "for every category" down slightly
+                padding-left: 7%;
+            }
+        }
+    }
+}
+#top-dish {
+    background-color: black;
+    text-align: center; /* Center the text and elements inside */
+    padding-bottom: 50px; /* Add padding to the bottom */
+
+    .wrapper {
+        max-height: 350px; /* Adjusted max-height */
+        border: 1px solid;
+        display: flex;
+        justify-content: flex-start; /* Align images to the start */
+        align-items: center; /* Center the images vertically */
+        overflow-x: auto; /* Enable horizontal scrolling */
+        padding: 20px; /* Add padding if needed */
+        margin: 0 auto; /* Center the wrapper container */
+        width: calc(150px * 4 + 10px * 3 + 40px); /* Width for 4 images + margins + padding */
+    }
+
+    .wrapper::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .dishImg {
+        width: 150px; /* Increased width */
+        height: 200px; /* Increased height */
+        object-fit: cover; /* Cover the container while maintaining aspect ratio */
+        border-radius: 15px; /* Add border radius if needed */
+        margin-right: 10px; /* Add margin between images */
+    }
+
+    .dishText {
+        color: white;
+        margin-top: 10px; /* Space between image and text */
+        font-size: 1em; /* Adjust font size as needed */
+    }
+
+    hr.line {
+        width: 80%;
+        border: 1px solid white;
+        margin: 0 auto 50px auto; /* Centers the hr element */
+        background-position: center;
+        position: relative; /* Ensure the pseudo-element is positioned relative to the hr */
+    }
+
+    h2 {
+        color: white;
+        margin-bottom: 50px;
+    }
+}
+
+
 // categories page - any
 
 // origins page - alejandre

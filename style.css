@@ -48,16 +48,14 @@
   flex: 1 0 100%;
   width: 100%;
   height: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   scroll-snap-align: start;
 }
 .img-slider .wrapper .slider .slide img {
   flex: 1 0 100%;
   width: 100%;
   height: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   scroll-snap-align: start;
 }
 .img-slider .wrapper .slider .slide .slidish-texts {
@@ -83,8 +81,7 @@
 }
 .img-slider .wrapper .slider-nav {
   display: flex;
-  -moz-column-gap: 1em;
-       column-gap: 1em;
+  column-gap: 1em;
   position: absolute;
   top: 1.5em;
   left: 50%;
@@ -173,8 +170,7 @@ header .web-tagline {
 .cat-section .categories tr td {
   height: 15em;
   width: 20%;
-  -moz-column-gap: 2em;
-       column-gap: 2em;
+  column-gap: 2em;
 }
 
 .book {
@@ -194,8 +190,7 @@ header .web-tagline {
 .book__cover-img img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 0.3em;
 }
 .book__cover-title {
@@ -262,6 +257,101 @@ header .web-tagline {
 }
 .home-body-container footer {
   min-height: 10em;
+}
+
+#favorites {
+  font-family: "Kurale", serif;
+  background: url("assets/img/favoritesBG1.png");
+  min-height: 85vh;
+  color: white;
+  background-size: cover;
+}
+#favorites .container {
+  max-width: 1200px;
+  padding: 16px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+#favorites .container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 84vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+#favorites .container h2 {
+  font-size: 6em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding-left: 12%;
+  margin-bottom: 10px;
+}
+#favorites .container h1 {
+  font-size: 7em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding-left: 3%;
+  margin-bottom: 30px;
+}
+#favorites .container .sub-text {
+  font-size: 2em;
+  font-weight: 300;
+  letter-spacing: 0.18em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 60px;
+  padding-left: 3%;
+}
+#favorites .container .sub-text span {
+  margin-top: 5px;
+  padding-left: 7%;
+}
+
+#top-dish {
+  background-color: black;
+  text-align: center; /* Center the text and elements inside */
+  padding-bottom: 50px; /* Add padding to the bottom */
+}
+#top-dish .wrapper {
+  max-height: 350px; /* Adjusted max-height */
+  border: 1px solid;
+  display: flex;
+  justify-content: flex-start; /* Align images to the start */
+  align-items: center; /* Center the images vertically */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding: 20px; /* Add padding if needed */
+  margin: 0 auto; /* Center the wrapper container */
+  width: 670px; /* Width for 4 images + margins + padding */
+}
+#top-dish .wrapper::-webkit-scrollbar {
+  width: 0;
+}
+#top-dish .dishImg {
+  width: 150px; /* Increased width */
+  height: 200px; /* Increased height */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  border-radius: 15px; /* Add border radius if needed */
+  margin-right: 10px; /* Add margin between images */
+}
+#top-dish .dishText {
+  color: white;
+  margin-top: 10px; /* Space between image and text */
+  font-size: 1em; /* Adjust font size as needed */
+}
+#top-dish hr.line {
+  width: 80%;
+  border: 1px solid white;
+  margin: 0 auto 50px auto; /* Centers the hr element */
+  background-position: center;
+  position: relative; /* Ensure the pseudo-element is positioned relative to the hr */
+}
+#top-dish h2 {
+  color: white;
+  margin-bottom: 50px;
 }
 
 .contacts-body-container {
