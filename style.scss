@@ -449,6 +449,26 @@ header {
 
 // origins page - alejandre
 
+.origins-page-container {
+    display: grid;
+
+    .card {
+        border: 1px solid black;
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__child {
+            border: 1px solid black;
+            height: 90%;
+            width: 80%;
+        }
+
+        
+    }
+}
+
 // contact page - done
 
 .contacts-body-container {

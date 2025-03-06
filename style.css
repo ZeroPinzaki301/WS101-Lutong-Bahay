@@ -384,6 +384,22 @@ header .web-tagline {
   margin-bottom: 50px;
 }
 
+.origins-page-container {
+  display: grid;
+}
+.origins-page-container .card {
+  border: 1px solid black;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.origins-page-container .card__child {
+  border: 1px solid black;
+  height: 90%;
+  width: 80%;
+}
+
 .contacts-body-container {
   display: grid;
 }
