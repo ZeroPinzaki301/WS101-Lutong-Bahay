@@ -104,17 +104,39 @@
 header {
   min-height: 5em;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 4fr 6fr;
   align-items: center;
   background-image: url(assets/img/header-bg.png);
   background-repeat: no-repeat;
   background-size: 100% 5em;
 }
 header .web-title {
+  height: 1.65em;
   text-align: center;
   font-size: 2.5em;
   font-weight: 600;
   letter-spacing: 0.07em;
+  display: grid;
+  grid-template-columns: 1.5fr 6.5fr 2fr;
+  color: green;
+}
+header .web-title .icon {
+  background-image: url("assets/img/lutong-bahay-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid rgba(99, 2, 2, 0.363);
+  border-radius: 0.2em 0.5em 0.2em 0.5em;
+  background-color: rgba(252, 255, 255, 0.548);
+  margin: 0 0.25em;
+}
+header .web-title p {
+  margin: 0.25em 0 0 0;
+}
+header .web-title .logo-design {
+  background-image: url("assets/img/logo-design.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 header .web-tagline {
   text-align: center;
@@ -390,6 +412,22 @@ header .web-tagline {
 #top-dish h2 {
   color: white;
   margin-bottom: 50px;
+}
+
+.origins-page-container {
+  display: grid;
+}
+.origins-page-container .card {
+  border: 1px solid black;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.origins-page-container .card__child {
+  border: 1px solid black;
+  height: 90%;
+  width: 80%;
 }
 
 .contacts-body-container {
