@@ -16,10 +16,8 @@
 *{
     margin: 0;
     padding: 0;
-    // border: 1px solid black;
     font-family: kyiv;
     text-decoration: none;
-
     body {
         background-color: antiquewhite;
     }
@@ -123,24 +121,29 @@
 header {
     min-height: 5em;
     display: grid;
+    padding: 0 2em;
     grid-template-columns: 4fr 6fr;
     align-items: center;
     background-image: url(assets/img/header-bg.png);
     background-repeat: no-repeat;
-    background-size: 100% 5em;
+    background-position: center;
+    background-size: 100% 6.5em;
+    overflow: hidden;
 
 
     .web-title {
-        height: 1.65em;
+        height: 100%;
         text-align: center;
-        font-size: 2.5em;
         font-weight: 600;
         letter-spacing: .07em;
         display: grid;
-        grid-template-columns: 1.5fr 6.5fr 2fr;
+        grid-template-columns: 1.5fr 6.3fr 2.2fr;
         color: green;
 
         .icon {
+            aspect-ratio: 1;
+            align-self: center;
+            max-height: 80%;
             background-image: url('assets/img/lutong-bahay-logo.png');
             background-size: contain;
             background-repeat: no-repeat;
@@ -152,12 +155,17 @@ header {
         }
 
         p {
-            margin: .25em 0 0 0;
+            align-self: center;
+            font-size: clamp(1.5em, 2.5vw, 2.25em);
         }
-
+        
         .logo-design {
+            align-self: center;
+            height: 80%;
+            width: 100%;
             background-image: url('assets/img/logo-design.png');
-            background-size: contain;
+            background-size: cover;
+            background-position: center;
             background-repeat: no-repeat;
         }
 
@@ -272,7 +280,6 @@ header {
 // home page and default
 .home-body-container {
     display: grid;
-    background-color: antiquewhite;
 
     hr {
         width: 90%;
@@ -280,7 +287,7 @@ header {
     }
 
     main {
-        min-height: 45em;
+        min-height: 42.5em;
         display: grid;
         align-items: center;
         grid-template-columns: 60% 40%;
@@ -372,6 +379,7 @@ header {
             font-weight: 700;
             letter-spacing: 0.05em;
             padding-left: 3%;
+
             margin-bottom: 20px;
             font-family: kurale;
         }
@@ -397,7 +405,7 @@ header {
 #top-dish {
     background-color: black;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 
     .wrapper {
         max-height: 350px; /* Adjusted max-height */
@@ -508,66 +516,4 @@ header {
 .contacts-body-container {
     display: grid;
 
-    hr {
-        width: 100%;
-        margin: auto;
-        transform: translateY(-5em);
-    }
-    
-    main {
-        min-height: 50em;
-        background-image: url(assets/img/contact-us-bg.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        transform: translateY(-7em);
-        z-index: -1;
-        display: grid;
-        grid-template-columns: 2.5fr 7.5fr;
-        grid-template-rows: 8.5fr 1.5fr;
-        padding: 8em 3em 0 3em;
-
-        .contact-img {
-            background-image: url(assets/img/contact-us-picture.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-
-            h2 {
-                text-align: center;
-                margin: 2em 0 0 0 ;
-                font-size: 2.25em;
-                color: rgb(255, 255, 255);
-                font-weight: 300;
-                letter-spacing: .15em;
-            }
-
-        }
-
-        .contact-form {
-            display: grid;
-            background-color: rgba(250, 235, 215, 0.596);
-            grid-template-rows: 1.5fr 8.5fr;
-
-
-            form {
-                display: grid;
-                grid-template-columns: 2fr 8fr;
-
-                .labels, .forms {
-                    display: grid;
-                    grid-template-rows: 1.2fr 1.2fr 1.2fr 5.5fr .9fr;
-                    font-size: 1.5em;
-                    letter-spacing: .2em;
-                }
-
-                .labels > *, .forms > input{
-                    margin: .5em 0 .5em 0 ;
-                }
-
-                .labels {
-                    text-align: center;
-                }
-            }
-        }
-    }
 }
