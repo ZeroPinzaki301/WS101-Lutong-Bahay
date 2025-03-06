@@ -11,7 +11,7 @@
   src: url(assets/font/Kufam/Kufam-VariableFont_wght.ttf);
 }
 * {
-  
+  margin: 0;
   padding: 0;
   font-family: kyiv;
   text-decoration: none;
@@ -48,14 +48,16 @@
   flex: 1 0 100%;
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
   scroll-snap-align: start;
 }
 .img-slider .wrapper .slider .slide img {
   flex: 1 0 100%;
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
   scroll-snap-align: start;
 }
 .img-slider .wrapper .slider .slide .slidish-texts {
@@ -81,7 +83,8 @@
 }
 .img-slider .wrapper .slider-nav {
   display: flex;
-  column-gap: 1em;
+  -moz-column-gap: 1em;
+       column-gap: 1em;
   position: absolute;
   top: 1.5em;
   left: 50%;
@@ -104,17 +107,39 @@
 header {
   min-height: 5em;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 4fr 6fr;
   align-items: center;
   background-image: url(assets/img/header-bg.png);
   background-repeat: no-repeat;
   background-size: 100% 5em;
 }
 header .web-title {
+  height: 1.65em;
   text-align: center;
   font-size: 2.5em;
   font-weight: 600;
   letter-spacing: 0.07em;
+  display: grid;
+  grid-template-columns: 1.5fr 6.5fr 2fr;
+  color: green;
+}
+header .web-title .icon {
+  background-image: url("assets/img/lutong-bahay-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid rgba(99, 2, 2, 0.363);
+  border-radius: 0.2em 0.5em 0.2em 0.5em;
+  background-color: rgba(252, 255, 255, 0.548);
+  margin: 0 0.25em;
+}
+header .web-title p {
+  margin: 0.25em 0 0 0;
+}
+header .web-title .logo-design {
+  background-image: url("assets/img/logo-design.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 header .web-tagline {
   text-align: center;
@@ -170,7 +195,8 @@ header .web-tagline {
 .cat-section .categories tr td {
   height: 15em;
   width: 20%;
-  column-gap: 2em;
+  -moz-column-gap: 2em;
+       column-gap: 2em;
 }
 
 .book {
@@ -190,7 +216,8 @@ header .web-tagline {
 .book__cover-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 0.3em;
 }
 .book__cover-title {
@@ -335,7 +362,8 @@ header .web-tagline {
 #top-dish .dishImg {
   width: 235px; /* Increased width */
   height: 300px; /* Increased height */
-  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  -o-object-fit: cover;
+     object-fit: cover; /* Cover the container while maintaining aspect ratio */
   border-radius: 15px; /* Add border radius if needed */
   margin: 0 1em; /* Add margin between images */
 }
