@@ -48,14 +48,16 @@
   flex: 1 0 100%;
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
   scroll-snap-align: start;
 }
 .img-slider .wrapper .slider .slide img {
   flex: 1 0 100%;
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
   scroll-snap-align: start;
 }
 .img-slider .wrapper .slider .slide .slidish-texts {
@@ -81,7 +83,8 @@
 }
 .img-slider .wrapper .slider-nav {
   display: flex;
-  column-gap: 1em;
+  -moz-column-gap: 1em;
+       column-gap: 1em;
   position: absolute;
   top: 1.5em;
   left: 50%;
@@ -104,23 +107,28 @@
 header {
   min-height: 5em;
   display: grid;
+  padding: 0 2em;
   grid-template-columns: 4fr 6fr;
   align-items: center;
   background-image: url(assets/img/header-bg.png);
   background-repeat: no-repeat;
-  background-size: 100% 5em;
+  background-position: center;
+  background-size: 100% 6.5em;
+  overflow: hidden;
 }
 header .web-title {
-  height: 1.65em;
+  height: 100%;
   text-align: center;
-  font-size: 2.5em;
   font-weight: 600;
   letter-spacing: 0.07em;
   display: grid;
-  grid-template-columns: 1.5fr 6.5fr 2fr;
+  grid-template-columns: 1.5fr 6.3fr 2.2fr;
   color: green;
 }
 header .web-title .icon {
+  aspect-ratio: 1;
+  align-self: center;
+  max-height: 80%;
   background-image: url("assets/img/lutong-bahay-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -131,11 +139,16 @@ header .web-title .icon {
   margin: 0 0.25em;
 }
 header .web-title p {
-  margin: 0.25em 0 0 0;
+  align-self: center;
+  font-size: clamp(1.5em, 2.5vw, 2.25em);
 }
 header .web-title .logo-design {
+  align-self: center;
+  height: 80%;
+  width: 100%;
   background-image: url("assets/img/logo-design.png");
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 header .web-tagline {
@@ -192,7 +205,8 @@ header .web-tagline {
 .cat-section .categories tr td {
   height: 15em;
   width: 20%;
-  column-gap: 2em;
+  -moz-column-gap: 2em;
+       column-gap: 2em;
 }
 
 .book {
@@ -212,7 +226,8 @@ header .web-tagline {
 .book__cover-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 0.3em;
 }
 .book__cover-title {
@@ -231,14 +246,13 @@ header .web-tagline {
 
 .home-body-container {
   display: grid;
-  background-color: antiquewhite;
 }
 .home-body-container hr {
   width: 90%;
   margin: auto;
 }
 .home-body-container main {
-  min-height: 45em;
+  min-height: 42.5em;
   display: grid;
   align-items: center;
   grid-template-columns: 60% 40%;
@@ -288,7 +302,8 @@ header .web-tagline {
   color: white;
   background-size: cover;
   background-position: center;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #favorites .container {
   max-width: 1200px;
@@ -339,7 +354,7 @@ header .web-tagline {
 #top-dish {
   background-color: black;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 #top-dish .wrapper {
   max-height: 350px; /* Adjusted max-height */
@@ -363,7 +378,8 @@ header .web-tagline {
 #top-dish .dishImg {
   width: 235px;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 15px;
   margin: 0 1em;
   transition: 1000ms;
@@ -432,56 +448,4 @@ header .web-tagline {
 
 .contacts-body-container {
   display: grid;
-}
-.contacts-body-container hr {
-  width: 100%;
-  margin: auto;
-  transform: translateY(-5em);
-}
-.contacts-body-container main {
-  min-height: 50em;
-  background-image: url(assets/img/contact-us-bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform: translateY(-7em);
-  z-index: -1;
-  display: grid;
-  grid-template-columns: 2.5fr 7.5fr;
-  grid-template-rows: 8.5fr 1.5fr;
-  padding: 8em 3em 0 3em;
-}
-.contacts-body-container main .contact-img {
-  background-image: url(assets/img/contact-us-picture.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.contacts-body-container main .contact-img h2 {
-  text-align: center;
-  margin: 2em 0 0 0;
-  font-size: 2.25em;
-  color: rgb(255, 255, 255);
-  font-weight: 300;
-  letter-spacing: 0.15em;
-}
-.contacts-body-container main .contact-form {
-  display: grid;
-  background-color: rgba(250, 235, 215, 0.596);
-  grid-template-rows: 1.5fr 8.5fr;
-}
-.contacts-body-container main .contact-form form {
-  display: grid;
-  grid-template-columns: 2fr 8fr;
-}
-.contacts-body-container main .contact-form form .labels, .contacts-body-container main .contact-form form .forms {
-  display: grid;
-  grid-template-rows: 1.2fr 1.2fr 1.2fr 5.5fr 0.9fr;
-  font-size: 1.5em;
-  letter-spacing: 0.2em;
-}
-.contacts-body-container main .contact-form form .labels > *, .contacts-body-container main .contact-form form .forms > input {
-  margin: 0.5em 0 0.5em 0;
-}
-.contacts-body-container main .contact-form form .labels {
-  text-align: center;
 }/*# sourceMappingURL=style.css.map */
