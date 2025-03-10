@@ -163,7 +163,7 @@ header .web-tagline {
   position: sticky;
   top: 0;
   background-color: rgba(0, 0, 0, 0.705);
-  z-index: 1;
+  z-index: 10;
 }
 .navbar__buttons {
   font-size: 1.4em;
@@ -180,6 +180,31 @@ header .web-tagline {
   text-decoration: underline;
   text-shadow: -0.2em 0 0.3em rgb(255, 140, 8);
   color: rgb(0, 0, 0);
+}
+.navbar .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.navbar .dropdown .content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 20;
+  padding: 12px 16px;
+}
+.navbar .dropdown .content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.navbar .dropdown .content a:hover {
+  background-color: #ddd;
+}
+.navbar .dropdown:hover .content {
+  display: block;
 }
 
 .cat-section {
