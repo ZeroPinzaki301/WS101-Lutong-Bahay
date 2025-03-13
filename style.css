@@ -107,23 +107,28 @@
 header {
   min-height: 5em;
   display: grid;
+  padding: 0 2em;
   grid-template-columns: 4fr 6fr;
   align-items: center;
   background-image: url(assets/img/header-bg.png);
   background-repeat: no-repeat;
-  background-size: 100% 5em;
+  background-position: center;
+  background-size: 100% 6.5em;
+  overflow: hidden;
 }
 header .web-title {
-  height: 1.65em;
+  height: 100%;
   text-align: center;
-  font-size: 2.5em;
   font-weight: 600;
   letter-spacing: 0.07em;
   display: grid;
-  grid-template-columns: 1.5fr 6.5fr 2fr;
+  grid-template-columns: 1.5fr 6.3fr 2.2fr;
   color: green;
 }
 header .web-title .icon {
+  aspect-ratio: 1;
+  align-self: center;
+  max-height: 80%;
   background-image: url("assets/img/lutong-bahay-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -134,11 +139,16 @@ header .web-title .icon {
   margin: 0 0.25em;
 }
 header .web-title p {
-  margin: 0.25em 0 0 0;
+  align-self: center;
+  font-size: clamp(1.5em, 2.5vw, 2.25em);
 }
 header .web-title .logo-design {
+  align-self: center;
+  height: 80%;
+  width: 100%;
   background-image: url("assets/img/logo-design.png");
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 header .web-tagline {
@@ -156,7 +166,7 @@ header .web-tagline {
   position: sticky;
   top: 0;
   background-color: rgba(0, 0, 0, 0.705);
-  z-index: 1;
+  z-index: 10;
 }
 .navbar__buttons {
   font-size: 1.4em;
@@ -173,6 +183,31 @@ header .web-tagline {
   text-decoration: underline;
   text-shadow: -0.2em 0 0.3em rgb(255, 140, 8);
   color: rgb(0, 0, 0);
+}
+.navbar .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.navbar .dropdown .content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 20;
+  padding: 12px 16px;
+}
+.navbar .dropdown .content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.navbar .dropdown .content a:hover {
+  background-color: #ddd;
+}
+.navbar .dropdown:hover .content {
+  display: block;
 }
 
 .cat-section {
@@ -236,14 +271,13 @@ header .web-tagline {
 
 .home-body-container {
   display: grid;
-  background-color: antiquewhite;
 }
 .home-body-container hr {
   width: 90%;
   margin: auto;
 }
 .home-body-container main {
-  min-height: 45em;
+  min-height: 42.5em;
   display: grid;
   align-items: center;
   grid-template-columns: 60% 40%;
@@ -286,12 +320,82 @@ header .web-tagline {
   min-height: 10em;
 }
 
+#about-body {
+  background-image: url(assets/img/hero-bg.png);
+}
+
+#about-main {
+  box-sizing: border-box;
+  size: 100%;
+}
+
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.profile-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.profile-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about-description {
+  display: inline-block;
+  flex: 1;
+  padding: 30px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#about-aside {
+  width: 30%;
+  text-align: justify;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  margin: 20px;
+  color: white;
+}
+
+#about-section {
+  display: inline-block;
+  width: 70%;
+  text-align: justify;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  margin: 20px;
+  color: white;
+}
+
 #favorites {
   font-family: "Kurale", serif;
   background: url("assets/img/favoritesBG1.png");
   min-height: 85vh;
   color: white;
   background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #favorites .container {
   max-width: 1200px;
@@ -307,7 +411,6 @@ header .web-tagline {
   left: 0;
   min-height: 84vh;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
 }
 #favorites .container h2 {
   font-size: 6em;
@@ -342,8 +445,8 @@ header .web-tagline {
 
 #top-dish {
   background-color: black;
-  text-align: center; /* Center the text and elements inside */
-  padding-bottom: 50px; /* Add padding to the bottom */
+  text-align: center;
+  padding-bottom: 50px;
 }
 #top-dish .wrapper {
   max-height: 350px; /* Adjusted max-height */
@@ -355,22 +458,48 @@ header .web-tagline {
   padding: 20px; /* Add padding if needed */
   margin: 0 auto; /* Center the wrapper container */
   width: 1140px; /* Width for 4 images + margins + padding */
+  transition: 0.5s; /* Smooth transition */
+  cursor: pointer;
 }
 #top-dish .wrapper::-webkit-scrollbar {
   width: 0;
 }
+#top-dish .dish-container {
+  position: relative; /* Ensure the read-more is positioned relative to the container */
+  transition: transform 1000ms, opacity 1000ms;
+}
 #top-dish .dishImg {
-  width: 235px; /* Increased width */
-  height: 300px; /* Increased height */
+  width: 235px;
+  height: 300px;
   -o-object-fit: cover;
-     object-fit: cover; /* Cover the container while maintaining aspect ratio */
-  border-radius: 15px; /* Add border radius if needed */
-  margin: 0 1em; /* Add margin between images */
+     object-fit: cover;
+  border-radius: 15px;
+  margin: 0 1em;
+  transition: transform 1000ms, opacity 1000ms;
+}
+#top-dish .dish-container:hover .dishImg {
+  transform: scale(1.05);
+  opacity: 0.5;
+}
+#top-dish .read-more {
+  display: none; /* Hide by default */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#top-dish .dish-container:hover .read-more {
+  display: block; /* Show on hover */
 }
 #top-dish .dishText {
   color: white;
-  margin-top: 10px; /* Space between image and text */
-  font-size: 1em; /* Adjust font size as needed */
+  margin-top: 10px;
+  font-size: 1em;
 }
 #top-dish hr.line {
   width: 80%;
@@ -378,10 +507,43 @@ header .web-tagline {
   margin: 0 auto 50px auto; /* Centers the hr element */
   background-position: center;
   position: relative; /* Ensure the pseudo-element is positioned relative to the hr */
+  font-family: kurale;
+}
+#top-dish hr.line::before {
+  content: "";
+  position: absolute;
+  top: -20px; /* Adjust the position as needed */
+  left: 0;
+  width: 100%;
+  height: 20px; /* Adjust the height as needed */
+  background-color: black; /* Black background color */
 }
 #top-dish h2 {
   color: white;
   margin-bottom: 50px;
+}
+
+.dropdown a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.dropdown .content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+.dropdown .content a:hover {
+  background-color: #db6464;
 }
 
 .origins-page-container {
@@ -402,56 +564,4 @@ header .web-tagline {
 
 .contacts-body-container {
   display: grid;
-}
-.contacts-body-container hr {
-  width: 100%;
-  margin: auto;
-  transform: translateY(-5em);
-}
-.contacts-body-container main {
-  min-height: 50em;
-  background-image: url(assets/img/contact-us-bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform: translateY(-7em);
-  z-index: -1;
-  display: grid;
-  grid-template-columns: 2.5fr 7.5fr;
-  grid-template-rows: 8.5fr 1.5fr;
-  padding: 8em 3em 0 3em;
-}
-.contacts-body-container main .contact-img {
-  background-image: url(assets/img/contact-us-picture.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.contacts-body-container main .contact-img h2 {
-  text-align: center;
-  margin: 2em 0 0 0;
-  font-size: 2.25em;
-  color: rgb(255, 255, 255);
-  font-weight: 300;
-  letter-spacing: 0.15em;
-}
-.contacts-body-container main .contact-form {
-  display: grid;
-  background-color: rgba(250, 235, 215, 0.596);
-  grid-template-rows: 1.5fr 8.5fr;
-}
-.contacts-body-container main .contact-form form {
-  display: grid;
-  grid-template-columns: 2fr 8fr;
-}
-.contacts-body-container main .contact-form form .labels, .contacts-body-container main .contact-form form .forms {
-  display: grid;
-  grid-template-rows: 1.2fr 1.2fr 1.2fr 5.5fr 0.9fr;
-  font-size: 1.5em;
-  letter-spacing: 0.2em;
-}
-.contacts-body-container main .contact-form form .labels > *, .contacts-body-container main .contact-form form .forms > input {
-  margin: 0.5em 0 0.5em 0;
-}
-.contacts-body-container main .contact-form form .labels {
-  text-align: center;
 }/*# sourceMappingURL=style.css.map */

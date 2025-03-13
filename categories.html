@@ -1,140 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="assets/img/lutong-bahay-logo.png" />
-    <title>Lutong Bahay</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <title>Categories | Lutong Bahay</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="web-title">
-            <div class="icon"></div>
-            <p><span style="color: red;">LUTONG</span> BAHAY</p>
-            <div class="logo-design"></div>
-        </div>
+      <div class="web-title">
+        <div class="icon"></div>
+        <p><span style="color: red">LUTONG</span> BAHAY</p>
+        <div class="logo-design"></div>
+      </div>
 
-        <div class="web-tagline">Your Guide to Authentic Filipino Recipes</div>
+      <div class="web-tagline">Your Guide to Authentic Filipino Recipes</div>
     </header>
 
     <nav class="navbar">
-        <a href="index.html"><button class="navbar__buttons">Home</button></a>
-        <a href="favorites.html"><button class="navbar__buttons">Favorites</button></a>
-        <a href="categories.html"><button class="navbar__buttons">Categories</button></a>
-        <a href="origins.html"><button class="navbar__buttons">Origins</button></a>
-        <a href="about.html"><button class="navbar__buttons">About Us</button></a>
-        <a href="contact.html"><button class="navbar__buttons">Contact Us</button></a>
+      <a href="index.html"><button class="navbar__buttons">Home</button></a>
+      <a href="favorites.html"
+        ><button class="navbar__buttons">Favorites</button></a
+      >
+      <div class="dropdown">
+        <a href="categories.html"
+          ><button class="navbar__buttons" id="categories">Categories</button>
+        </a>
+        <div class="content">
+          <a href="pork.html">Pork</a>
+          <a href="chicken.html">Chicken</a>
+          <a href="fish.html">Fish</a>
+          <a href="vegetable.html">Vegetable</a>
+          <a href="noodle.html">Noodle</a>
+          <a href="beef.html">Beef</a>
+          <a href="seafood.html">Seafood</a>
+          <a href="dessert.html">Dessert</a>
+        </div>
+      </div>
+      <a href="origins.html"
+        ><button class="navbar__buttons">Origins</button></a
+      >
+      <a href="about.html"
+        ><button class="navbar__buttons">About Us</button></a
+      >
+      <a href="contact.html"
+        ><button class="navbar__buttons">Contact Us</button></a
+      >
     </nav>
 
     <section class="cat-section">
+      <table class="categories">
+        <tr>
+          <th colspan="4">Categories</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="book">
+              <div class="book__cover-img">
+                <img src="assets/img/pork-cover.jpg" alt="Sizzling Pork" />
+              </div>
+              <div class="book__cover-title">
+                Pork
+                <div class="dish-number">10 : Dishes</div>
+              </div>
+            </div>
+          </td>
 
-        <table class="categories" >
-            <tr>
-                <th colspan="4">Categories</th>
-            </tr>
-            <tr>
-                <td>
-                    <div class="book">
-                            <div class="book__cover-img">
-                                <img src="assets/img/pork-cover.jpg" alt="Sizzling Pork"></div>
-                            <div class="book__cover-title">Pork
-                                <div class="dish-number">
-                                    10 : Dishes
-                                </div>
-                            </div>
-                    </div>
-                </td>
+          <td>
+            <div class="book">
+              <div class="book__cover-img">
+                <img src="assets/img/chicken-cover.jpg" alt="Chicken Adobo" />
+              </div>
+              <div class="book__cover-title">
+                Chicken
+                <div class="dish-number">10 : Dishes</div>
+              </div>
+            </div>
+          </td>
 
-                <td>
-                    <div class="book">
-                            <div class="book__cover-img">
-                                <img src="assets/img/chicken-cover.jpg" alt="Chicken Adobo"></div>
-                            <div class="book__cover-title">Chicken
-                                <div class="dish-number">
-                                    10 : Dishes
-                                </div>
-                            </div>
-                    </div>
-                </td>
+          <td>
+            <div class="book">
+              <div class="book__cover-img">
+                <img src="assets/img/fish-cover.jpg" alt="Relyenong Bangus" />
+              </div>
+              <div class="book__cover-title">
+                Fish
+                <div class="dish-number">11 : Dishes</div>
+              </div>
+            </div>
+          </td>
 
-                <td>
-                    <div class="book">
-                            <div class="book__cover-img">
-                                <img src="assets/img/fish-cover.jpg" alt="Relyenong Bangus"></div>
-                            <div class="book__cover-title">Fish
-                                <div class="dish-number">
-                                    11 : Dishes
-                                </div>
-                            </div>
-                    </div>
-                </td>
+          <td>
+            <div class="book">
+              <div class="book__cover-img">
+                <img src="assets/img/vegetable-cover.jpg" alt="Pakbet" />
+              </div>
+              <div class="book__cover-title">
+                Vegetable
+                <div class="dish-number">10 : Dishes</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="book">
+              <div class="book__cover-img">
+                <img src="assets/img/noode-cover.jpg" alt="Pancit Palabok" />
+              </div>
+              <div class="book__cover-title">
+                Noodle
+                <div class="dish-number">10 : Dishes</div>
+              </div>
+            </div>
+          </td>
 
-                <td>
-                    <div class="book">
-                            <div class="book__cover-img">
-                                <img src="assets/img/vegetable-cover.jpg" alt="Pakbet"></div>
-                            <div class="book__cover-title">Vegetable
-                                <div class="dish-number">
-                                    10 : Dishes
-                                </div>
-                            </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="book">
-                            <div class="book__cover-img">
-                                <img src="assets/img/noode-cover.jpg" alt="Pancit Palabok"></div>
-                            <div class="book__cover-title">Noodle
-                                <div class="dish-number">
-                                    10 : Dishes
-                                </div>
-                            </div>
-                    </div>
-                </td>
+          <td>
+            <div class="book">
+              <div class="book__cover-img">
+                <img src="assets/img/beef-cover.jpg" alt="Bistek" />
+              </div>
+              <div class="book__cover-title">
+                Beef
+                <div class="dish-number">10 : Dishes</div>
+              </div>
+            </div>
+          </td>
 
-                <td>
-                    <div class="book">
-                            <div class="book__cover-img">
-                                <img src="assets/img/beef-cover.jpg" alt="Bistek"></div>
-                            <div class="book__cover-title">Beef
-                                <div class="dish-number">
-                                    10 : Dishes
-                                </div>
-                            </div>
-                    </div>
-                </td>
+          <td>
+            <div class="book">
+              <div class="book__cover-img">
+                <img
+                  src="assets/img/seafood-cover.jpg"
+                  alt="Sinigang na Hipon"
+                />
+              </div>
+              <div class="book__cover-title">
+                Seafood
+                <div class="dish-number">10 : Dishes</div>
+              </div>
+            </div>
+          </td>
 
-                <td>
-                    <div class="book">
-                            <div class="book__cover-img">
-                                <img src="assets/img/seafood-cover.jpg" alt="Sinigang na Hipon"></div>
-                            <div class="book__cover-title">Seafood
-                                <div class="dish-number">
-                                    10 : Dishes
-                                </div>
-                            </div>
-                    </div>
-                </td>
-                
-                <td>
-                    <div class="book">
-                            <div class="book__cover-img">
-                                <img src="assets/img/dessert-cover.jpg" alt="Maja Blanca"></div>
-                            <div class="book__cover-title">Dessert
-                                <div class="dish-number">
-                                    11 : Dishes
-                                </div>
-                            </div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-
-
+          <td>
+            <div class="book">
+              <div class="book__cover-img">
+                <img src="assets/img/dessert-cover.jpg" alt="Maja Blanca" />
+              </div>
+              <div class="book__cover-title">
+                Dessert
+                <div class="dish-number">11 : Dishes</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
     </section>
-    
-</body>
+  </body>
 </html>
