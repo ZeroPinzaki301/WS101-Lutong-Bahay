@@ -810,15 +810,1182 @@
       }
     ],
 
-    "vegetable" : [],
+    "vegetable" : [
+      {
+        "dishId": 32,
+        "dishType": "vegetable",
+        "name": "Pakbet",
+        "ingredients": [
+          "2 cups mixed vegetables (okra, eggplant, ampalaya, sitaw, kalabasa)",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tomatoes, chopped",
+          "1/4 cup bagoong alamang (fermented shrimp paste)",
+          "1/2 cup water",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic, onion, and tomatoes until softened.",
+          "Add bagoong alamang and stir well.",
+          "Mix in the vegetables and cook for a few minutes.",
+          "Pour water, cover, and simmer until vegetables are tender. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/pakbet.jpg"
+      },
+      {
+        "dishId": 33,
+        "dishType": "vegetable",
+        "name": "Ginataang Kalabasa",
+        "ingredients": [
+          "500g kalabasa (squash), cubed",
+          "1 bunch sitaw (string beans), cut into 2-inch pieces",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1 cup coconut milk",
+          "1/2 cup coconut cream",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Add kalabasa and coconut milk. Simmer until tender.",
+          "Mix in sitaw and coconut cream. Cook until vegetables are done.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/ginataang-kalabasa.jpg"
+      },
+      {
+        "dishId": 34,
+        "dishType": "vegetable",
+        "name": "Chopsuey",
+        "ingredients": [
+          "2 cups mixed vegetables (carrots, cabbage, bell pepper, cauliflower, snow peas)",
+          "200g chicken or pork, sliced",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1 tablespoon oyster sauce",
+          "1 tablespoon soy sauce",
+          "1/2 cup water or broth",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until softened.",
+          "Add chicken or pork and cook until browned.",
+          "Pour water or broth and bring to a boil.",
+          "Mix in vegetables and cook until tender-crisp.",
+          "Add oyster sauce, soy sauce, and season with salt and pepper.",
+          "Serve hot."
+        ],
+        "imgPath": "assets/dish-img/chopsuey.jpg"
+      },
+      {
+        "dishId": 35,
+        "dishType": "vegetable",
+        "name": "Adobong Sitaw",
+        "ingredients": [
+          "1 bunch sitaw (string beans), cut into 2-inch pieces",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1/4 cup soy sauce",
+          "1/4 cup vinegar",
+          "1/2 cup water",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Add sitaw and stir-fry for a few minutes.",
+          "Pour soy sauce, vinegar, and water. Simmer until sitaw is tender.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/adobong-sitaw.jpg"
+      },
+      {
+        "dishId": 36,
+        "dishType": "vegetable",
+        "name": "Adobong Kangkong",
+        "ingredients": [
+          "1 bunch kangkong (water spinach), chopped",
+          "200g tofu, cubed and fried",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1/4 cup soy sauce",
+          "1/4 cup vinegar",
+          "1/2 cup water",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until softened.",
+          "Add fried tofu and stir well.",
+          "Pour soy sauce, vinegar, and water. Simmer for a few minutes.",
+          "Mix in kangkong and cook until wilted.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/adobong-kangkong.jpg"
+      },
+      {
+        "dishId": 37,
+        "dishType": "vegetable",
+        "name": "Tortang Talong",
+        "ingredients": [
+          "4 eggplants, roasted and peeled",
+          "2 eggs, beaten",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Flatten roasted eggplants with a fork.",
+          "Dip each eggplant in beaten eggs.",
+          "Heat oil in a pan and fry the eggplants until golden brown on both sides.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/tortang-talong.jpg"
+      },
+      {
+        "dishId": 38,
+        "dishType": "vegetable",
+        "name": "Ginisang Pechay",
+        "ingredients": [
+          "1 bunch pechay (bok choy), chopped",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 eggs, beaten",
+          "1/2 cup water",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Add pechay and cook until slightly wilted.",
+          "Pour beaten eggs and stir gently until eggs are cooked.",
+          "Add water and simmer for a few minutes.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/ginisang-pechay.jpg"
+      },
+      {
+        "dishId": 39,
+        "dishType": "vegetable",
+        "name": "Upo with Giniling",
+        "ingredients": [
+          "1 medium upo (bottle gourd), peeled and sliced",
+          "200g ground pork or beef",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1 tomato, chopped",
+          "1/2 cup water",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic, onion, and tomato until softened.",
+          "Add ground pork or beef and cook until browned.",
+          "Mix in upo and pour water. Simmer until tender.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/upo-giniling.jpg"
+      },
+      {
+        "dishId": 40,
+        "dishType": "vegetable",
+        "name": "Bulanglang na Saluyot",
+        "ingredients": [
+          "1 bunch saluyot (jute leaves), cleaned",
+          "1 tomato, chopped",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1/2 cup water",
+          "Salt to taste"
+        ],
+        "procedure": [
+          "Sauté garlic, onion, and tomato until softened.",
+          "Add saluyot and stir-fry for a few minutes.",
+          "Pour water and simmer until tender.",
+          "Season with salt. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/bulanglang-saluyot.jpg"
+      },
+      {
+        "dishId": 41,
+        "dishType": "vegetable",
+        "name": "Ensaladang Talbos",
+        "ingredients": [
+          "1 bunch talbos ng kamote (sweet potato leaves), blanched",
+          "1 tomato, sliced",
+          "1 onion, sliced",
+          "2 tablespoons vinegar",
+          "1 tablespoon fish sauce (patis)",
+          "Salt and pepper to taste"
+        ],
+        "procedure": [
+          "Blanch talbos ng kamote in boiling water and drain.",
+          "Mix with tomato and onion in a bowl.",
+          "Drizzle vinegar and fish sauce.",
+          "Season with salt and pepper. Serve cold."
+        ],
+        "imgPath": "assets/dish-img/ensaladang-talbos.jpg"
+      },
+      {
+        "dishId": 42,
+        "dishType": "vegetable",
+        "name": "Ginisang Munggo",
+        "ingredients": [
+          "1 cup mung beans",
+          "1/2 pound pork, sliced",
+          "1 onion, chopped",
+          "4 cloves garlic, minced",
+          "2 tomatoes, chopped",
+          "1 cup spinach or ampalaya leaves",
+          "Fish sauce to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Boil mung beans until soft, then set aside.",
+          "Sauté garlic, onion, and tomatoes in oil.",
+          "Add pork and cook until browned.",
+          "Mix in boiled mung beans and season with fish sauce.",
+          "Simmer until well combined. Add spinach or ampalaya leaves and cook until tender. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/ginisang-munggo.jpg"
+      }
+    ],
 
-    "noodle" : [],
+    "noodle" : [
+      {
+        "dishId": 43,
+        "dishType": "noodle",
+        "name": "Sotanghon",
+        "ingredients": [
+          "200g sotanghon noodles (vermicelli), soaked and drained",
+          "200g chicken, shredded",
+          "1 carrot, julienned",
+          "1 cup cabbage, shredded",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tablespoons soy sauce",
+          "1 tablespoon fish sauce",
+          "4 cups chicken broth",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Add chicken and cook until lightly browned.",
+          "Pour chicken broth and bring to a boil.",
+          "Add sotanghon noodles, carrot, and cabbage. Simmer until noodles are tender.",
+          "Season with soy sauce, fish sauce, salt, and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/sotanghon.jpg"
+      },
+      {
+        "dishId": 44,
+        "dishType": "noodle",
+        "name": "Pancit Palabok",
+        "ingredients": [
+          "200g rice noodles, cooked",
+          "200g ground pork",
+          "1/2 cup shrimp, cooked and peeled",
+          "1 cup pork chicharon, crushed",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tablespoons annatto powder",
+          "2 cups shrimp broth",
+          "2 tablespoons fish sauce",
+          "Hard-boiled eggs, sliced",
+          "Spring onions, chopped",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until softened.",
+          "Add ground pork and cook until browned.",
+          "Dissolve annatto powder in shrimp broth and pour into the pan.",
+          "Simmer until sauce thickens. Season with fish sauce, salt, and pepper.",
+          "Pour sauce over rice noodles.",
+          "Top with shrimp, chicharon, hard-boiled eggs, and spring onions. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/pancit-palabok.jpg"
+      },
+      {
+        "dishId": 45,
+        "dishType": "noodle",
+        "name": "Pancit Bihon",
+        "ingredients": [
+          "200g bihon noodles, soaked and drained",
+          "200g chicken or pork, sliced",
+          "1 carrot, julienned",
+          "1 cup cabbage, shredded",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tablespoons soy sauce",
+          "1 tablespoon oyster sauce",
+          "1/2 cup chicken broth",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Add chicken or pork and cook until browned.",
+          "Pour chicken broth and bring to a boil.",
+          "Add bihon noodles, carrot, and cabbage. Simmer until noodles are tender.",
+          "Season with soy sauce, oyster sauce, salt, and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/pancit-bihon.jpg"
+      },
+      {
+        "dishId": 46,
+        "dishType": "noodle",
+        "name": "Macaroni Sopas",
+        "ingredients": [
+          "200g elbow macaroni, cooked",
+          "200g chicken, shredded",
+          "1 cup mixed vegetables (carrots, corn, peas)",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "4 cups chicken broth",
+          "1 cup evaporated milk",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Add chicken and cook until lightly browned.",
+          "Pour chicken broth and bring to a boil.",
+          "Mix in macaroni and vegetables. Simmer until vegetables are tender.",
+          "Pour evaporated milk and stir well.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/macaroni-sopas.jpg"
+      },
+      {
+        "dishId": 47,
+        "dishType": "noodle",
+        "name": "Lomi",
+        "ingredients": [
+          "200g lomi noodles, cooked",
+          "200g pork or chicken, sliced",
+          "1/2 cup shrimp, peeled",
+          "1 carrot, julienned",
+          "1 egg, beaten",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "4 cups chicken broth",
+          "2 tablespoons soy sauce",
+          "1 tablespoon cornstarch dissolved in water",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Add pork or chicken and cook until browned.",
+          "Pour chicken broth and bring to a boil.",
+          "Add shrimp, carrot, and lomi noodles. Simmer until shrimp is cooked.",
+          "Pour beaten egg while stirring gently.",
+          "Thicken soup with cornstarch mixture.",
+          "Season with soy sauce, salt, and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/lomi.jpg"
+      },
+      {
+        "dishId": 48,
+        "dishType": "noodle",
+        "name": "Pancit Canton",
+        "ingredients": [
+          "200g pancit canton noodles",
+          "200g chicken or pork, sliced",
+          "1 carrot, julienned",
+          "1 cup cabbage, shredded",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tablespoons soy sauce",
+          "1 tablespoon oyster sauce",
+          "1/2 cup chicken broth",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Add chicken or pork and cook until browned.",
+          "Pour chicken broth and bring to a boil.",
+          "Add pancit canton noodles, carrot, and cabbage. Simmer until noodles are tender.",
+          "Season with soy sauce, oyster sauce, salt, and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/pancit-canton.jpg"
+      },
+      {
+        "dishId": 49,
+        "dishType": "noodle",
+        "name": "Pinoy Style Spaghetti",
+        "ingredients": [
+          "200g spaghetti noodles, cooked",
+          "200g ground pork or beef",
+          "1 cup hotdogs, sliced",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 cups tomato sauce",
+          "1/2 cup banana ketchup",
+          "1 tablespoon sugar",
+          "Salt and pepper to taste",
+          "Grated cheese for topping",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until softened.",
+          "Add ground pork or beef and cook until browned.",
+          "Mix in hotdogs and cook for a few minutes.",
+          "Pour tomato sauce and banana ketchup. Simmer until thickened.",
+          "Season with sugar, salt, and pepper.",
+          "Serve over spaghetti noodles and top with grated cheese."
+        ],
+        "imgPath": "assets/dish-img/pinoy-style-spaghetti.jpg"
+      },
+      {
+        "dishId": 50,
+        "dishType": "noodle",
+        "name": "Pinoy Carbonara",
+        "ingredients": [
+          "200g spaghetti noodles, cooked",
+          "200g bacon, chopped",
+          "1/2 cup ham, sliced",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1 cup all-purpose cream",
+          "1/2 cup evaporated milk",
+          "Salt and pepper to taste",
+          "Grated cheese for topping",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Fry bacon until crispy, then set aside.",
+          "Sauté garlic and onion in the same pan.",
+          "Add ham and cook for a few minutes.",
+          "Pour all-purpose cream and evaporated milk. Simmer until thickened.",
+          "Season with salt and pepper.",
+          "Serve over spaghetti noodles, top with bacon and grated cheese."
+        ],
+        "imgPath": "assets/dish-img/pinoy-carbonara.jpg"
+      },
+      {
+        "dishId": 51,
+        "dishType": "noodle",
+        "name": "Pancit Habhab",
+        "ingredients": [
+          "200g miki noodles, cooked",
+          "200g pork, sliced",
+          "1 carrot, julienned",
+          "1 cup cabbage, shredded",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tablespoons soy sauce",
+          "1 tablespoon fish sauce",
+          "1/2 cup pork broth",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Add pork and cook until browned.",
+          "Pour pork broth and bring to a boil.",
+          "Add miki noodles, carrot, and cabbage. Simmer until vegetables are tender.",
+          "Season with soy sauce, fish sauce, salt, and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/pancit-habhab.jpg"
+      },
+      {
+        "dishId": 52,
+        "dishType": "noodle",
+        "name": "Misua with Siomai",
+        "ingredients": [
+          "200g misua noodles",
+          "6 pieces siomai, cooked",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "4 cups chicken broth",
+          "1 egg, beaten",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Pour chicken broth and bring to a boil.",
+          "Add misua noodles and cook until tender.",
+          "Pour beaten egg while stirring gently.",
+          "Season with salt and pepper.",
+          "Serve with siomai on top."
+        ],
+        "imgPath": "assets/dish-img/misua-siomai.jpg"
+      }
+    ],
 
-    "beef" : [],
+    "beef" : [
+      {
+        "dishId": 53,
+        "dishType": "beef",
+        "name": "Bistek",
+        "ingredients": [
+          "500g beef, thinly sliced",
+          "1/4 cup soy sauce",
+          "3 tablespoons calamansi juice",
+          "1 onion, sliced into rings",
+          "5 cloves garlic, minced",
+          "1/2 teaspoon black pepper",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Marinate beef in soy sauce, calamansi juice, and pepper for 30 minutes.",
+          "Sauté garlic until fragrant.",
+          "Fry beef until browned.",
+          "Add marinade and simmer until beef is tender.",
+          "Top with onion rings and cook until softened. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/bistek.jpg"
+      },
+      {
+        "dishId": 54,
+        "dishType": "beef",
+        "name": "Beef Tapa",
+        "ingredients": [
+          "500g beef, thinly sliced",
+          "1/4 cup soy sauce",
+          "3 tablespoons vinegar",
+          "3 tablespoons sugar",
+          "5 cloves garlic, minced",
+          "1/2 teaspoon black pepper",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Marinate beef in soy sauce, vinegar, sugar, garlic, and pepper overnight.",
+          "Fry marinated beef until browned.",
+          "Serve hot with rice and fried egg."
+        ],
+        "imgPath": "assets/dish-img/beef-tapa.jpg"
+      },
+      {
+        "dishId": 55,
+        "dishType": "beef",
+        "name": "Nilagang Baka",
+        "ingredients": [
+          "500g beef shank",
+          "1 corn on the cob, sliced",
+          "2 potatoes, quartered",
+          "1 cabbage, chopped",
+          "1 onion, whole",
+          "1 teaspoon peppercorns",
+          "Salt to taste",
+          "Water"
+        ],
+        "procedure": [
+          "Boil beef shank with onion and peppercorns until tender.",
+          "Add corn and potatoes, and cook until soft.",
+          "Mix in cabbage and cook until tender.",
+          "Season with salt. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/nilagang-baka.jpg"
+      },
+      {
+        "dishId": 56,
+        "dishType": "beef",
+        "name": "Beef Kare-Kare",
+        "ingredients": [
+          "500g beef oxtail or brisket",
+          "1 eggplant, sliced",
+          "1 bunch string beans, cut into 2-inch lengths",
+          "1 banana heart, sliced",
+          "1/2 cup peanut butter",
+          "2 tablespoons annatto oil",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Boil beef until tender. Set aside broth.",
+          "Sauté garlic and onion in annatto oil.",
+          "Add boiled beef and peanut butter, mixing well.",
+          "Pour beef broth and simmer until thickened.",
+          "Add vegetables and cook until tender.",
+          "Season with salt and pepper. Serve hot with bagoong."
+        ],
+        "imgPath": "assets/dish-img/beef-kare-kare.jpg"
+      },
+      {
+        "dishId": 57,
+        "dishType": "beef",
+        "name": "Sinigang na Baka",
+        "ingredients": [
+          "500g beef short ribs",
+          "1 tomato, quartered",
+          "1 onion, quartered",
+          "1 radish, sliced",
+          "1 eggplant, sliced",
+          "1 bunch kangkong leaves",
+          "1 pack tamarind mix",
+          "Salt and pepper to taste",
+          "Water"
+        ],
+        "procedure": [
+          "Boil beef ribs with tomato and onion until tender.",
+          "Add radish, eggplant, and tamarind mix. Simmer until vegetables are cooked.",
+          "Mix in kangkong leaves and cook until wilted.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/sinigang-na-baka.jpg"
+      },
+      {
+        "dishId": 58,
+        "dishType": "beef",
+        "name": "Papaitan",
+        "ingredients": [
+          "500g beef innards (tripe, liver, kidney), cleaned and sliced",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tablespoons bile",
+          "1 tablespoon vinegar",
+          "1 teaspoon ginger, minced",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic, onion, and ginger until fragrant.",
+          "Add beef innards and cook until browned.",
+          "Pour vinegar and simmer for a few minutes.",
+          "Add water and cook until tender.",
+          "Mix in bile and simmer briefly.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/papaitan.jpg"
+      },
+      {
+        "dishId": 59,
+        "dishType": "beef",
+        "name": "Beef Sizzling",
+        "ingredients": [
+          "500g beef sirloin, sliced thinly",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tablespoons soy sauce",
+          "1 tablespoon Worcestershire sauce",
+          "1 egg",
+          "Salt and pepper to taste",
+          "Butter"
+        ],
+        "procedure": [
+          "Sauté garlic and onion in butter until fragrant.",
+          "Add beef and cook until browned.",
+          "Mix in soy sauce and Worcestershire sauce. Simmer until thickened.",
+          "Serve hot with a fried egg on top."
+        ],
+        "imgPath": "assets/dish-img/beef-sizzling.jpg"
+      },
+      {
+        "dishId": 60,
+        "dishType": "beef",
+        "name": "Beef Broccoli",
+        "ingredients": [
+          "500g beef, sliced thinly",
+          "1 cup broccoli florets",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tablespoons oyster sauce",
+          "1 tablespoon soy sauce",
+          "1/2 teaspoon cornstarch dissolved in water",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Add beef and cook until browned.",
+          "Mix in broccoli and stir-fry until tender.",
+          "Pour oyster sauce, soy sauce, and cornstarch mixture. Simmer until sauce thickens.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/beef-broccoli.jpg"
+      },
+      {
+        "dishId": 61,
+        "dishType": "beef",
+        "name": "Beef Mechado",
+        "ingredients": [
+          "500g beef, cubed",
+          "1 potato, quartered",
+          "1 carrot, sliced",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 cups tomato sauce",
+          "1/2 cup beef broth",
+          "2 tablespoons soy sauce",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Add beef and cook until browned.",
+          "Pour tomato sauce, beef broth, and soy sauce. Simmer until beef is tender.",
+          "Mix in potato and carrot. Cook until vegetables are tender.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/beef-mechado.jpg"
+      },  
+      {
+        "dishId": 62,
+        "dishType": "beef",
+        "name": "Beef Pares",
+        "ingredients": [
+          "500g beef brisket, cubed",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1/4 cup soy sauce",
+          "2 tablespoons sugar",
+          "1 star anise",
+          "4 cups beef broth",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic and onion until fragrant.",
+          "Add beef and cook until browned.",
+          "Pour soy sauce, sugar, and beef broth. Add star anise. Simmer until beef is tender.",
+          "Season with salt and pepper. Serve hot with rice and beef soup on the side."
+        ],
+        "imgPath": "assets/dish-img/beef-pares.jpg"
+      }            
+    ],
 
-    "seafood" : [],
+    "seafood" : [
+      {
+        "dishId": 63,
+        "dishType": "seafood",
+        "name": "Sinigang na Hipon",
+        "ingredients": [
+          "1 lb shrimp (with shells on)",
+          "1 medium onion, quartered",
+          "2 medium tomatoes, quartered",
+          "2 long green peppers (siling pang-sigang)",
+          "1 pack sinigang mix or fresh tamarind",
+          "1 eggplant, sliced",
+          "1 bunch kangkong (water spinach)",
+          "2 to 3 okra, sliced",
+          "2 to 3 radishes, sliced",
+          "Salt or fish sauce to taste"
+        ],
+        "procedure": [
+          "In a large pot, bring water to a boil and add the onion, tomatoes, and long green peppers.",
+          "Once the vegetables soften, add the shrimp.",
+          "Add the sinigang mix (or tamarind, if using), and cook for 5–10 minutes.",
+          "Add the eggplant, okra, and radishes, cooking until tender.",
+          "Season with salt or fish sauce. Add kangkong just before serving and cook briefly."
+        ],
+        "imgPath": "assets/dish-img/sinigang-na-hipon.jpg"
+      },
+      {
+        "dishId": 64,
+        "dishType": "seafood",
+        "name": "Squid Adobo",
+        "ingredients": [
+          "1 lb squid, cleaned and cut into rings",
+          "1 onion, chopped",
+          "4 cloves garlic, minced",
+          "1/2 cup soy sauce",
+          "1/4 cup vinegar",
+          "1 bay leaf",
+          "1 tsp peppercorns",
+          "1/2 cup water",
+          "Salt and pepper to taste",
+          "2 tbsp oil"
+        ],
+        "procedure": [
+          "Heat oil in a pan and sauté garlic and onion until fragrant.",
+          "Add the squid and cook for 2-3 minutes.",
+          "Pour in soy sauce, vinegar, and water. Add bay leaf and peppercorns.",
+          "Simmer for 5 minutes, then season with salt and pepper to taste.",
+          "Serve hot."
+        ],
+        "imgPath": "assets/dish-img/squid-adobo.jpg"
+      },
+      {
+        "dishId": 65,
+        "dishType": "seafood",
+        "name": "Ginataang Alimango",
+        "ingredients": [
+          "2 crabs, cleaned and halved",
+          "1 can (400ml) coconut milk",
+          "1 onion, chopped",
+          "4 cloves garlic, minced",
+          "1 thumb-sized ginger, sliced",
+          "2 long green peppers",
+          "1 tbsp fish sauce",
+          "Salt and pepper to taste",
+          "1 cup water",
+          "2 tbsp oil"
+        ],
+        "procedure": [
+          "Heat oil in a pan and sauté garlic, onion, and ginger.",
+          "Add crabs and cook for a few minutes.",
+          "Pour in coconut milk and water, then season with fish sauce, salt, and pepper.",
+          "Add green peppers and simmer for 10-15 minutes until the crabs are cooked and the sauce thickens.",
+          "Serve with steamed rice."
+        ],
+        "imgPath": "assets/dish-img/ginataang-alimango.jpg"
+      },
+      {
+        "dishId": 66,
+        "dishType": "seafood",
+        "name": "Ginataang Pusit",
+        "ingredients": [
+          "1 lb squid, cleaned and sliced",
+          "1/2 cup coconut milk",
+          "1 onion, chopped",
+          "4 cloves garlic, minced",
+          "1 thumb-sized ginger, sliced",
+          "1 banana blossom (puso ng saging), chopped",
+          "2 tbsp fish sauce",
+          "Salt and pepper to taste",
+          "1 tbsp oil"
+        ],
+        "procedure": [
+          "Heat oil in a pan and sauté garlic, onion, and ginger.",
+          "Add the squid and cook for 2-3 minutes.",
+          "Add coconut milk, banana blossom, and fish sauce. Simmer until the squid is tender and the sauce thickens.",
+          "Season with salt and pepper, then serve hot."
+        ],
+        "imgPath": "assets/dish-img/ginataang-pusit.jpg"
+      },
+      {
+        "dishId": 67,
+        "dishType": "seafood",
+        "name": "Ginisang Tahong",
+        "ingredients": [
+          "1 lb tahong (mussels), cleaned",
+          "1 onion, chopped",
+          "4 cloves garlic, minced",
+          "1/4 cup Sprite (or other lemon-lime soda)",
+          "1/2 cup water",
+          "1 tbsp fish sauce",
+          "Salt and pepper to taste",
+          "2 tbsp oil"
+        ],
+        "procedure": [
+          "Heat oil in a pan and sauté garlic and onion.",
+          "Add mussels and cook for 2-3 minutes.",
+          "Pour in Sprite and water, then simmer for 5-7 minutes.",
+          "Add fish sauce, salt, and pepper, then cook until the mussels open up.",
+          "Serve hot."
+        ],
+        "imgPath": "assets/dish-img/ginisang-tahong.jpg"
+      },
+      {
+        "dishId": 68,
+        "dishType": "seafood",
+        "name": "Garlic Butter Shrimp",
+        "ingredients": [
+          "1 lb shrimp, peeled and deveined",
+          "1/4 cup butter",
+          "6 cloves garlic, minced",
+          "1 tbsp olive oil",
+          "Salt and pepper to taste",
+          "1 tbsp parsley, chopped"
+        ],
+        "procedure": [
+          "In a large pan, melt butter and heat olive oil over medium heat.",
+          "Add garlic and sauté until fragrant.",
+          "Add shrimp and cook for 3-5 minutes until pink.",
+          "Season with salt and pepper, then sprinkle with parsley before serving."
+        ],
+        "imgPath": "assets/dish-img/garlic-butter-shrimp.jpg"
+      },
+      {
+        "dishId": 69,
+        "dishType": "seafood",
+        "name": "Okoy Alamang",
+        "ingredients": [
+          "1 lb shrimp, peeled and chopped",
+          "1/2 cup rice flour",
+          "1/4 cup cornstarch",
+          "2 tbsp shrimp paste (alamang)",
+          "1 egg",
+          "1/2 cup water",
+          "2 tbsp green onions, chopped",
+          "Salt and pepper to taste",
+          "Cooking oil for frying"
+        ],
+        "procedure": [
+          "In a bowl, mix rice flour, cornstarch, shrimp paste, egg, and water to make a batter.",
+          "Add shrimp and green onions, then season with salt and pepper.",
+          "Heat oil in a pan and drop spoonfuls of the mixture into the hot oil. Fry until golden and crispy.",
+          "Drain on paper towels and serve with vinegar dipping sauce."
+        ],
+        "imgPath": "assets/dish-img/okoy-alamang.jpg"
+      },
+      {
+        "dishId": 70,
+        "dishType": "seafood",
+        "name": "Baked Scallops",
+        "ingredients": [
+          "1 lb scallops, cleaned and shells removed",
+          "2 tbsp butter, melted",
+          "4 cloves garlic, minced",
+          "1/4 cup grated Parmesan cheese",
+          "1 tbsp parsley, chopped",
+          "Salt and pepper to taste",
+          "Lemon wedges for serving"
+        ],
+        "procedure": [
+          "Preheat the oven to 375°F (190°C).",
+          "Arrange scallops on a baking sheet and drizzle with melted butter.",
+          "Sprinkle garlic, Parmesan, and parsley on top.",
+          "Bake for 10-12 minutes, or until the scallops are cooked through and the topping is golden brown.",
+          "Serve with lemon wedges."
+        ],
+        "imgPath": "assets/dish-img/baked-scallops.jpg"
+      },
+      {
+        "dishId": 71,
+        "dishType": "seafood",
+        "name": "Camaron Rebosado",
+        "ingredients": [
+          "1 lb shrimp, peeled and deveined",
+          "1/2 cup cornstarch",
+          "1/2 cup flour",
+          "1 egg, beaten",
+          "1 tsp baking powder",
+          "1 cup cold water",
+          "Salt and pepper to taste",
+          "Cooking oil for frying"
+        ],
+        "procedure": [
+          "Mix flour, cornstarch, baking powder, salt, and pepper in a bowl.",
+          "Add cold water and beaten egg to make a batter.",
+          "Dip shrimp into the batter and fry in hot oil until golden and crispy.",
+          "Drain on paper towels and serve with a dipping sauce (mayonnaise or sweet chili sauce)."
+        ],
+        "imgPath": "assets/dish-img/camaron-rebosado.jpg"
+      },
+      {
+        "dishId": 72,
+        "dishType": "seafood",
+        "name": "Halabos na Hipon",
+        "ingredients": [
+          "1 lb shrimp, unpeeled",
+          "1 tbsp salt",
+          "1 tbsp cooking oil",
+          "1/4 cup water"
+        ],
+        "procedure": [
+          "Heat oil in a large pan and add shrimp. Cook for 2-3 minutes on each side.",
+          "Add salt and a little water, then cover to steam for 5 minutes.",
+          "Serve hot with dipping sauce (soy sauce with calamansi or vinegar)."
+        ],
+        "imgPath": "assets/dish-img/halabos-na-hipon.jpg"
+      }
+    ],
 
-    "dessert" : []
+    "dessert" : [
+      {
+        "dishId": 73,
+        "dishType": "dessert",
+        "name": "Leche Flan",
+        "ingredients": [
+          "10 egg yolks",
+          "1 can condensed milk",
+          "1 can evaporated milk",
+          "1 cup sugar",
+          "1 teaspoon vanilla extract"
+        ],
+        "procedure": [
+          "Caramelize sugar in a pan until golden brown and pour into molds.",
+          "Mix egg yolks, condensed milk, evaporated milk, and vanilla extract.",
+          "Strain the mixture and pour it into the molds over the caramelized sugar.",
+          "Steam for 30-40 minutes or until set. Cool and refrigerate before serving."
+        ],
+        "imgPath": "assets/dish-img/leche-flan.jpg"
+      },
+      {
+        "dishId": 74,
+        "dishType": "dessert",
+        "name": "Halo-Halo",
+        "ingredients": [
+          "Crushed ice",
+          "Sweetened banana",
+          "Jackfruit",
+          "Sweetened beans",
+          "Ube halaya",
+          "Leche flan",
+          "Nata de coco",
+          "Evaporated milk",
+          "Ice cream"
+        ],
+        "procedure": [
+          "Layer sweetened fruits, beans, and nata de coco in a glass.",
+          "Add crushed ice and pour evaporated milk over it.",
+          "Top with ube halaya, leche flan, and ice cream.",
+          "Serve immediately and enjoy!"
+        ],
+        "imgPath": "assets/dish-img/halo-halo.jpg"
+      },
+      {
+        "dishId": 75,
+        "dishType": "dessert",
+        "name": "Turon",
+        "ingredients": [
+          "6 ripe bananas (saba), sliced lengthwise",
+          "1/2 cup brown sugar",
+          "Spring roll wrappers",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Coat banana slices in brown sugar.",
+          "Wrap each slice in a spring roll wrapper.",
+          "Fry until golden brown and crispy.",
+          "Serve hot."
+        ],
+        "imgPath": "assets/dish-img/turon.jpg"
+      },
+      {
+        "dishId": 76,
+        "dishType": "dessert",
+        "name": "Ginataang Pinipig",
+        "ingredients": [
+          "1 cup pinipig (toasted rice flakes)",
+          "1 cup coconut milk",
+          "1/2 cup sugar",
+          "1/2 teaspoon vanilla extract"
+        ],
+        "procedure": [
+          "Boil coconut milk and sugar until thickened.",
+          "Add pinipig and cook until soft.",
+          "Mix in vanilla extract. Serve warm."
+        ],
+        "imgPath": "assets/dish-img/ginataang-pinipig.jpg"
+      },
+      {
+        "dishId": 77,
+        "dishType": "dessert",
+        "name": "Ube Halaya",
+        "ingredients": [
+          "500g grated purple yam",
+          "1 can condensed milk",
+          "1 can evaporated milk",
+          "1/2 cup butter",
+          "1/2 teaspoon vanilla extract"
+        ],
+        "procedure": [
+          "Cook purple yam in butter until soft.",
+          "Add condensed milk, evaporated milk, and vanilla extract.",
+          "Stir continuously until thick. Serve chilled."
+        ],
+        "imgPath": "assets/dish-img/ube-halaya.jpg"
+      },
+      {
+        "dishId": 78,
+        "dishType": "dessert",
+        "name": "Sapin-Sapin",
+        "ingredients": [
+          "2 cups glutinous rice flour",
+          "1 can coconut milk",
+          "1 cup sugar",
+          "1/2 cup condensed milk",
+          "Ube flavoring",
+          "Jackfruit flavoring",
+          "Plain layer"
+        ],
+        "procedure": [
+          "Mix glutinous rice flour, coconut milk, sugar, and condensed milk. Divide the mixture into three parts.",
+          "Add ube flavoring to one part, jackfruit flavoring to another, and leave the third part plain.",
+          "Steam each layer one at a time until set.",
+          "Cool and slice. Serve the colorful dessert and enjoy!"
+        ],
+        "imgPath": "assets/dish-img/sapin-sapin.jpg"
+      },
+      {
+        "dishId": 79,
+        "dishType": "dessert",
+        "name": "Maja Blanca",
+        "ingredients": [
+          "1 can coconut milk",
+          "1 can condensed milk",
+          "1 cup cornstarch dissolved in water",
+          "1/2 cup sugar",
+          "1/2 cup corn kernels"
+        ],
+        "procedure": [
+          "Boil coconut milk, condensed milk, and sugar.",
+          "Add corn kernels and cornstarch mixture. Stir continuously until thickened.",
+          "Pour into molds and cool until set.",
+          "Serve chilled."
+        ],
+        "imgPath": "assets/dish-img/maja-blanca.jpg"
+      },
+      {
+        "dishId": 80,
+        "dishType": "dessert",
+        "name": "Buko Pandan",
+        "ingredients": [
+          "2 cups shredded young coconut (buko)",
+          "1 pack pandan-flavored gelatin, cooked and cubed",
+          "1 can condensed milk",
+          "1 can all-purpose cream"
+        ],
+        "procedure": [
+          "Mix shredded coconut, cubed pandan gelatin, condensed milk, and all-purpose cream in a bowl.",
+          "Chill in the refrigerator before serving."
+        ],
+        "imgPath": "assets/dish-img/buko-pandan.jpg"
+      },
+      {
+        "dishId": 81,
+        "dishType": "dessert",
+        "name": "Banana Con Yelo",
+        "ingredients": [
+          "6 ripe bananas (saba), sliced",
+          "1/2 cup brown sugar",
+          "Crushed ice",
+          "Evaporated milk"
+        ],
+        "procedure": [
+          "Caramelize bananas with brown sugar until soft.",
+          "Serve with crushed ice and drizzle with evaporated milk."
+        ],
+        "imgPath": "assets/dish-img/banana-con-yelo.jpg"
+      },
+      {
+        "dishId": 82,
+        "dishType": "dessert",
+        "name": "Pichi-Pichi",
+        "ingredients": [
+          "2 cups grated cassava",
+          "1 cup sugar",
+          "1 cup water",
+          "1 teaspoon pandan essence",
+          "Grated coconut"
+        ],
+        "procedure": [
+          "Mix grated cassava, sugar, water, and pandan essence.",
+          "Pour into molds and steam until translucent.",
+          "Roll in grated coconut before serving."
+        ],
+        "imgPath": "assets/dish-img/pichi-pichi.jpg"
+      },
+      {
+        "dishId": 83,
+        "dishType": "dessert",
+        "name": "Puto Bumbong",
+        "ingredients": [
+          "2 cups glutinous rice flour",
+          "1/2 teaspoon purple food coloring",
+          "Banana leaves",
+          "Grated coconut",
+          "Muscovado sugar",
+          "Butter"
+        ],
+        "procedure": [
+          "Mix rice flour with purple food coloring and mold into cylindrical shapes.",
+          "Steam the mixture on banana leaves until cooked.",
+          "Serve with butter, grated coconut, and muscovado sugar."
+        ],
+        "imgPath": "assets/dish-img/puto-bumbong.jpg"
+      }      
+    ]
 
 }]
-  
