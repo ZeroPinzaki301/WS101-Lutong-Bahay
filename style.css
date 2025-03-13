@@ -436,6 +436,10 @@ header .web-tagline {
   color: white;
 }
 
+#about-main p {
+  font-size: 1.5em;
+}
+
 #favorites {
   font-family: "Kurale", serif;
   background: url("assets/img/favoritesBG1.png");
@@ -551,12 +555,7 @@ header .web-tagline {
   font-size: 1em;
 }
 #top-dish hr.line {
-  width: 80%;
-  border: 1px solid white;
   margin: 0 auto 50px auto; /* Centers the hr element */
-  background-position: center;
-  position: relative; /* Ensure the pseudo-element is positioned relative to the hr */
-  font-family: kurale;
 }
 #top-dish hr.line::before {
   content: "";
@@ -565,7 +564,6 @@ header .web-tagline {
   left: 0;
   width: 100%;
   height: 20px; /* Adjust the height as needed */
-  background-color: black; /* Black background color */
 }
 #top-dish h2 {
   color: white;
