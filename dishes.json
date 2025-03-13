@@ -1,178 +1,824 @@
-[
-    
-{
-    "dishId" : 1,
-    "dishtype" : "pork",
-    "name" : "Pork Adobo",
-    "ingredients" : 
-    ["500g pork belly, (chunked)",
-     "1/2 cup soy sauce",
-     "1 onion (chopped)",
-     "6 cloves garlic (minced)",
-     "3pcs bay leaves",
-     "1 teaspoon peppercorns",
-     "1.2 cup water",
-     "2 tablespoons cooking oil", 
-     "1 tablespoon salt", 
-     "1 tablespoon pepper"],
-     "procedure" : 
-    [
-        "Marinate the pork in soy sauce vinegar, garlic, bay leaves, and peppercorns for at least 30 minutes.",
-        "Heat oil in a pot and sauté the onions and garlic until fragrant.",
-        "Add he pork and cook until browned.",
-        "Add the marinade, water, and bring to a boil",
-        "Lower the heat and simmer for 40-50 minutes or until the meat is tender", 
-        "Season with salt and pepper to taste and serve with rice"
+[{
+    "pork": [
+      {
+        "dishId": 1,
+        "dishType": "pork",
+        "name": "Pork Adobo",
+        "ingredients": [
+          "500g pork belly (chunked)",
+          "1/2 cup soy sauce",
+          "1 onion (chopped)",
+          "6 cloves garlic (minced)",
+          "3 pcs bay leaves",
+          "1 teaspoon peppercorns",
+          "1/2 cup water",
+          "2 tablespoons cooking oil",
+          "1 tablespoon salt",
+          "1 tablespoon pepper"
+        ],
+        "procedure": [
+          "Marinate the pork in soy sauce, vinegar, garlic, bay leaves, and peppercorns for at least 30 minutes.",
+          "Heat oil in a pot and sauté the onions and garlic until fragrant.",
+          "Add the pork and cook until browned.",
+          "Add the marinade, water, and bring to a boil.",
+          "Lower the heat and simmer for 40-50 minutes or until the meat is tender.",
+          "Season with salt and pepper to taste and serve with rice."
+        ],
+        "imgPath": "assets/dish-img/pork-1.jpg"
+      },
+      {
+        "dishId": 2,
+        "dishType": "pork",
+        "name": "Pork Sisig",
+        "ingredients": [
+          "500g pork belly (or face), boiled and chopped into small pieces",
+          "1 onion, finely chopped",
+          "1 red chili, finely chopped",
+          "1 green chili, finely chopped",
+          "1 tablespoon soy sauce",
+          "1 tablespoon vinegar",
+          "1 teaspoon calamansi or lemon juice",
+          "Salt and pepper to taste",
+          "1 tablespoon mayonnaise (optional, for creaminess)",
+          "1 egg (optional)",
+          "1 tablespoon cooking oil"
+        ],
+        "procedure": [
+          "Boil the pork belly or pork face until tender. Drain and chop into small pieces.",
+          "Heat oil in a pan and sauté the onions and chilies until softened.",
+          "Add the chopped pork, soy sauce, vinegar, and calamansi juice.",
+          "Stir well and cook for a few minutes.",
+          "Season with salt and pepper to taste.",
+          "If you like it creamy, add mayonnaise and stir.",
+          "Serve the sisig on a sizzling plate and top with a raw egg (optional).",
+          "Serve with steamed rice."
+        ],
+        "imgPath": "assets/dish-img/pork-sisig.jpg"
+      },
+      {
+        "dishId": 3,
+        "dishType": "pork",
+        "name": "Pork Menudo",
+        "ingredients": [
+          "500g pork, cut into cubes",
+          "1/2 cup pork liver, cut into cubes",
+          "1 potato, diced",
+          "1 carrot, diced",
+          "1/2 cup green peas",
+          "1/2 cup bell pepper, diced",
+          "1 onion, chopped",
+          "4 cloves garlic, minced",
+          "2 tomatoes, chopped",
+          "1/4 cup soy sauce",
+          "1/4 cup tomato sauce",
+          "1/4 cup raisins",
+          "1 cup water or broth",
+          "Salt and pepper to taste",
+          "1 tablespoon cooking oil"
+        ],
+        "procedure": [
+          "Heat oil in a pot and sauté the garlic, onions, and tomatoes until soft.",
+          "Add the pork and cook until it turns brown.",
+          "Add the pork liver and cook for 5 minutes.",
+          "Add the soy sauce, tomato sauce, and water. Stir well and simmer for 10 minutes.",
+          "Add the potatoes, carrots, bell peppers, and green peas. Continue cooking until vegetables are tender.",
+          "Season with salt, pepper, and raisins.",
+          "Simmer for an additional 10 minutes before serving."
+        ],
+        "imgPath": "assets/dish-img/pork-menudo.jpg"
+      },
+      {
+        "dishId": 4,
+        "dishType": "pork",
+        "name": "Lechon Kawali",
+        "ingredients": [
+          "1 kg pork belly",
+          "1 onion, quartered",
+          "5 cloves garlic, smashed",
+          "2 bay leaves",
+          "1 tablespoon peppercorns",
+          "Salt to taste",
+          "Oil for frying"
+        ],
+        "procedure": [
+          "Boil the pork belly in a pot of water with onion, garlic, bay leaves, peppercorns, and salt.",
+          "Boil for about 45 minutes or until tender.",
+          "Let the pork belly cool, then pat dry.",
+          "Heat oil in a deep pan and fry the pork belly until golden and crispy.",
+          "Slice the pork into bite-sized pieces and serve with dipping sauce."
+        ],
+        "imgPath": "assets/dish-img/lechon-kawali.jpg"
+      },
+      {
+        "dishId": 5,
+        "dishType": "pork",
+        "name": "Pork Nilaga",
+        "ingredients": [
+          "500g pork (preferably pork belly or bone-in cuts)",
+          "1 onion, quartered",
+          "3 cloves garlic, crushed",
+          "2 potatoes, quartered",
+          "1 corn on the cob, cut into pieces",
+          "1 bundle of pechay (bok choy)",
+          "1 bunch string beans (sitaw)",
+          "Salt and pepper to taste",
+          "Water"
+        ],
+        "procedure": [
+          "In a large pot, combine pork, onion, garlic, and enough water to cover the meat.",
+          "Boil for 1-1.5 hours until the pork is tender.",
+          "Add potatoes and corn, and cook for another 10-15 minutes.",
+          "Add the string beans and pechay. Simmer for another 5 minutes.",
+          "Season with salt and pepper, and serve."
+        ],
+        "imgPath": "assets/dish-img/pork-nilaga.jpg"
+      },
+      {
+        "dishId": 6,
+        "dishType": "pork",
+        "name": "Pork Dinuguan",
+        "ingredients": [
+          "500g pork (liver, heart, or belly), cut into chunks",
+          "1 cup pork blood (available in Asian markets)",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 green chilies, chopped",
+          "1 tablespoon vinegar",
+          "2 cups water or broth",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Heat oil in a pot and sauté the garlic, onions, and chilies until fragrant.",
+          "Add the pork and cook until browned.",
+          "Pour in the vinegar and let it simmer for 5 minutes to cook off the vinegar.",
+          "Add the pork blood and water or broth. Stir gently to combine.",
+          "Simmer for 30-40 minutes or until the pork is tender.",
+          "Season with salt and pepper, and serve hot."
+        ],
+        "imgPath": "assets/dish-img/pork-dinuguan.jpg"
+      },
+      {
+        "dishId": 7,
+        "dishType": "pork",
+        "name": "Bicol Express",
+        "ingredients": [
+          "500g pork belly, sliced thinly",
+          "1 onion, chopped",
+          "4 cloves garlic, minced",
+          "3 long green chilies, chopped",
+          "1-2 red chilies (optional for added heat)",
+          "1 cup coconut milk",
+          "2 tablespoons shrimp paste (bagoong)",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Heat oil in a pan and sauté garlic, onions, and chilies until softened.",
+          "Add the pork and cook until lightly browned.",
+          "Stir in shrimp paste and cook for another 2 minutes.",
+          "Pour in the coconut milk and bring to a simmer.",
+          "Cook for 10-15 minutes until the sauce thickens and the pork is tender.",
+          "Season with salt and pepper, then serve."
+        ],
+        "imgPath": "assets/dish-img/bicol-express.jpg"
+      },
+      {
+        "dishId": 8,
+        "dishType": "pork",
+        "name": "Pork Binagoongan",
+        "ingredients": [
+          "500g pork belly, cut into cubes",
+          "3 tablespoons bagoong alamang (fermented shrimp paste)",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tomatoes, chopped",
+          "1 tablespoon vinegar",
+          "1 tablespoon sugar",
+          "1 cup water",
+          "2 green chilies (siling haba), sliced",
+          "Cooking oil",
+          "Salt and pepper to taste"
+        ],
+        "procedure": [
+          "Heat oil in a pan and sauté the garlic, onions, and tomatoes until softened.",
+          "Add the pork and cook until browned.",
+          "Stir in the bagoong alamang and cook for 2-3 minutes.",
+          "Pour in the vinegar and let it simmer without stirring for 5 minutes.",
+          "Add water and sugar, then mix well. Simmer until the pork is tender.",
+          "Toss in the green chilies and cook for another 2 minutes.",
+          "Season with salt and pepper, then serve hot."
+        ],
+        "imgPath": "assets/dish-img/pork-binagoongan.jpg"
+      },
+      {
+        "dishId": 9,
+        "dishType": "pork",
+        "name": "Pork Caldereta",
+        "ingredients": [
+          "500g pork, cut into chunks",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 cups tomato sauce",
+          "1 cup beef broth or water",
+          "1 potato, cubed",
+          "1 carrot, sliced",
+          "1 bell pepper, sliced",
+          "1/2 cup liver spread",
+          "1/2 cup green peas",
+          "2 bay leaves",
+          "1 tablespoon soy sauce",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ]
+        ,
+        "procedure": [
+          "Heat oil in a pot and sauté the garlic and onions until fragrant.",
+          "Add the pork and cook until browned.",
+          "Pour in the tomato sauce and broth, then add the bay leaves.",
+          "Simmer until the pork is tender.",
+          "Mix in the liver spread and soy sauce, stirring until well combined.",
+          "Add the potatoes, carrots, and bell pepper. Cook until the vegetables are tender.",
+          "Toss in the green peas and cook for another 2 minutes.",
+          "Season with salt and pepper, then serve hot."
+        ],
+        "imgPath": "assets/dish-img/pork-caldereta.jpg"
+      },
+      {
+        "dishId": 10,
+        "dishType": "pork",
+        "name": "Pork Kare-kare",
+        "ingredients": [
+          "500g pork belly, cut into chunks",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1/2 cup peanut butter",
+          "1 tablespoon annatto powder (achuete) dissolved in 1/4 cup water",
+          "1 cup pork broth or water",
+          "1 eggplant, sliced",
+          "1 bundle string beans, cut into 2-inch pieces",
+          "1 banana blossom (puso ng saging), sliced",
+          "Salt and pepper to taste",
+          "Cooking oil",
+          "Bagoong alamang (fermented shrimp paste) for serving"
+        ],
+        "procedure": [
+          "Heat oil in a pot and sauté the garlic and onions until softened.",
+          "Add the pork and cook until browned.",
+          "Pour in the broth and bring to a boil. Simmer until the pork is tender.",
+          "Mix in the annatto water and peanut butter, stirring until the sauce thickens.",
+          "Add the eggplant, string beans, and banana blossom. Cook until the vegetables are tender.",
+          "Season with salt and pepper.",
+          "Serve hot with bagoong alamang on the side."
+        ],
+        "imgPath": "assets/dish-img/pork-karekare.jpg"
+      }
     ],
-     "img-path" : "assets/dish-img/pork-1.jpg"
-},
 
-{
-    "dishId" : 2,
-    "dishtype" : "Pork",
-    "name" : "Pork Sisig",
-    "ingredients" : 
-    [
-        "500g pork belly (or face), boiled and chopped into small pieces",
-        "1 onion, finely chopped",
-        "1 red chili, finely chopped",
-        "1 green chili, finely chopped",
-        "1 tablespoon soy sauce",
-        "1 tablespoon vinegar",
-        "1 teaspoon calamansi or lemon juice",
-        "Salt and pepper to taste",
-        "1 tablespoon mayonnaise (optional, for creaminess)",
-        "1 egg (optional)",
-        "1 tablespoon cooking oil"
+    "chicken": [
+      {
+        "dishId": 11,
+        "dishType": "chicken",
+        "name": "Chicken Adobo",
+        "ingredients": [
+          "1 kg chicken, cut into serving pieces",
+          "1/2 cup soy sauce",
+          "1/4 cup vinegar",
+          "1 onion, chopped",
+          "6 cloves garlic, minced",
+          "3 bay leaves",
+          "1 teaspoon peppercorns",
+          "1/2 cup water",
+          "2 tablespoons cooking oil",
+          "Salt and pepper to taste"
+        ],
+        "procedure":[
+          "Combine the chicken, soy sauce, vinegar, garlic, onion, bay leaves, and peppercorns in a bowl. Marinate for at least 30 minutes.",
+          "Heat oil in a pot and sauté the garlic and onion until fragrant.",
+          "Add the chicken and cook until lightly browned.",
+          "Add the marinade, water, and bring to a boil.",
+          "Lower the heat and simmer for 40-50 minutes or until the chicken is tender and the sauce thickens.",
+          "Season with salt and pepper, and serve with rice."
+        ],
+        "imgPath": "assets/dish-img/chicken-adobo.jpg"
+      },
+      {
+        "dishId": 12,
+        "dishType": "chicken",
+        "name": "Chicken Pochero",
+        "ingredients": [
+          "500g chicken, cut into serving pieces",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tomatoes, chopped",
+          "2 cups chicken broth or water",
+          "1 banana (saba), sliced",
+          "1 potato, cubed",
+          "1 carrot, sliced",
+          "1 cabbage, chopped",
+          "1 bunch pechay",
+          "1 tablespoon fish sauce (patis)",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure":[
+          "Heat oil in a pot and sauté the garlic, onion, and tomatoes until softened.",
+          "Add the chicken and cook until browned.",
+          "Pour in the broth or water and bring to a boil. Simmer until the chicken is tender.",
+          "Add the potatoes, carrots, and banana. Cook until the vegetables are tender.",
+          "Toss in the cabbage and pechay, then cook until just wilted.",
+          "Season with fish sauce, salt, and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/chicken-pochero.jpg"
+      },
+      {
+        "dishId": 13,
+        "dishType": "chicken",
+        "name": "Sinampalukang Manok",
+        "ingredients": [
+          "500g chicken, cut into serving pieces",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tomatoes, chopped",
+          "2 cups chicken broth or water",
+          "1 banana (saba), sliced",
+          "1 potato, cubed",
+          "1 carrot, sliced",
+          "1 cabbage, chopped",
+          "1 bunch pechay",
+          "1 tablespoon fish sauce (patis)",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure":[
+          "Boil chicken in water with onion, tomatoes, and lemongrass until the chicken is tender.",
+          "Add the tamarind leaves or tamarind paste, and cook for 5 minutes.",
+          "Add the potatoes and cook for 10 minutes, then add the string beans and cook until tender.",
+          "Add the pechay and long green chilies, and cook for another 3-5 minutes.",
+          "Season with salt and fish sauce to taste, then serve hot."
+        ],
+        "imgPath": "assets/dish-img/sinampalukan.jpg"
+      },
+      {
+        "dishId": 14,
+        "dishType": "chicken",
+        "name": "Tinolang Manok",
+        "ingredients": [
+          "1 kg chicken, cut into pieces",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1 thumb-sized ginger, sliced",
+          "1 liter water",
+          "1 green papaya, peeled and sliced",
+          "1 bundle string beans (sitaw)",
+          "1 bunch spinach or malunggay leaves",
+          "2 tablespoons fish sauce",
+          "Salt and pepper to taste",
+          "2 tablespoons cooking oil"
+        ],
+        "procedure":[
+          "In a pot, heat oil and sauté garlic, onion, and ginger until fragrant.",
+          "Add the chicken and cook until lightly browned.",
+          "Add water and bring to a boil. Lower the heat and simmer for 30 minutes or until the chicken is cooked through.",
+          "Add the papaya and string beans, cooking until the vegetables are tender.",
+          "Add the spinach or malunggay leaves and cook for another 2-3 minutes.",
+          "Season with fish sauce, salt, and pepper, and serve hot."
+        ],
+        "imgPath": "assets/dish-img/tinola.jpg"
+      },
+      {
+        "dishId": 15,
+        "dishType": "chicken",
+        "name": "Pinoy Fried Chicken",
+        "ingredients": [
+          "1 whole chicken, cut into pieces",
+          "1 cup buttermilk or regular milk",
+          "1 tablespoon garlic powder",
+          "1 tablespoon onion powder",
+          "1 teaspoon paprika",
+          "Salt and pepper to taste",
+          "2 cups all-purpose flour",
+          "1 teaspoon baking powder",
+          "2 cups cooking oil (for frying)"
+        ],
+        "procedure":[
+          "Marinate the chicken in buttermilk, garlic powder, onion powder, paprika, salt, and pepper for at least 30 minutes or overnight.",
+          "In a bowl, combine the flour and baking powder.",
+          "Coat each piece of chicken with the seasoned flour mixture.",
+          "Heat oil in a deep pan or fryer and fry the chicken until golden brown and cooked through (about 10-12 minutes).",
+          "Drain on paper towels, serve hot."
+        ],
+        "imgPath": "assets/dish-img/fried-chicken.jpg"
+      },
+      {
+        "dishId": 16,
+        "dishType": "chicken",
+        "name": "Chicken Afritada",
+        "ingredients": [
+          "1 kg chicken, cut into serving pieces",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tomatoes, chopped",
+          "1 red bell pepper, sliced",
+          "1 green bell pepper, sliced",
+          "2 carrots, peeled and sliced",
+          "2 potatoes, peeled and sliced",
+          "1/2 cup tomato sauce",
+          "1/2 cup chicken broth",
+          "1/4 cup green peas",
+          "Salt and pepper to taste",
+          "2 tablespoons cooking oil"
+        ],
+        "procedure":[
+          "Heat oil in a pot and sauté garlic, onions, and tomatoes until soft.",
+          "Add the chicken and cook until browned.",
+          "Add the tomato sauce, chicken broth, carrots, and potatoes. Bring to a boil, then simmer for 20-25 minutes or until vegetables are tender.",
+          "Add the bell peppers and green peas, and cook for another 5 minutes.",
+          "Season with salt and pepper, and serve with rice."
+        ],
+        "imgPath": "assets/dish-img/chicken-afridata.jpg"
+      },
+      {
+        "dishId": 17,
+        "dishType": "chicken",
+        "name": "Chicken Inasal",
+        "ingredients": [
+          "1 kg chicken, cut into parts (legs, thighs, breasts)",
+          "1/2 cup soy sauce",
+          "1/4 cup vinegar",
+          "1/4 cup calamansi juice",
+          "1 tablespoon sugar",
+          "4 cloves garlic, minced",
+          "1 thumb-sized ginger, minced",
+          "2 tablespoons lemongrass, minced",
+          "Salt and pepper to taste",
+          "Banana leaves (for wrapping or grilling)"
+        ],
+        "procedure":[
+          "Combine soy sauce, vinegar, calamansi juice, sugar, garlic, ginger, lemongrass, salt, and pepper in a bowl. Marinate the chicken in this mixture for at least 30 minutes, or preferably overnight.",
+          "Preheat the grill or grill pan. If using banana leaves, wrap the chicken in the leaves for added flavor.",
+          "Grill the chicken, basting occasionally with the marinade, until the chicken is cooked through and golden brown.",
+          "Serve hot with rice and a dipping sauce (like vinegar with chili and garlic)."
+        ],
+        "imgPath": "assets/dish-img/chicken-inasal.jpg"
+      },
+      {
+        "dishId": 18,
+        "dishType": "chicken",
+        "name": "Pinikpikan",
+        "ingredients": [
+          "Whole native chicken, cleaned and prepared",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1 thumb-sized ginger, sliced",
+          "2 cups water or chicken broth",
+          "Salt and pepper to taste",
+          "Etag (smoked and salted pork) or regular pork (optional)",
+          "Sayote or green papaya, sliced",
+          "Spring onions or leeks, chopped"
+        ],
+        "procedure":[
+          "Roast the chicken over an open flame until the skin is charred. Remove the burnt skin and cut the chicken into serving pieces.",
+          "In a pot, sauté the garlic, onion, and ginger until fragrant.",
+          "Add the chicken and cook until lightly browned.",
+          "Pour in the water or chicken broth and bring to a boil. Simmer until the chicken is tender.",
+          "If using etag or pork, add it to the pot and cook until tender.",
+          "Add the sayote or green papaya and cook until soft.",
+          "Season with salt and pepper to taste.",
+          "Garnish with spring onions or leeks and serve hot."
+        ],
+        "imgPath": "assets/dish-img/pinkpikan.jpg"
+      },
+      {
+        "dishId": 19,
+        "dishType": "chicken",
+        "name": "Bringhe",
+        "ingredients": [
+          "2 cups glutinous rice (malagkit), washed and drained",
+          "500g chicken, cut into small pieces",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1 bell pepper, sliced",
+          "1 carrot, julienned",
+          "1/2 cup raisins",
+          "2 cups coconut milk",
+          "1 cup chicken broth or water",
+          "1/2 teaspoon turmeric powder (or atsuete for coloring)",
+          "Salt and pepper to taste",
+          "Banana leaves (for lining the pan)",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Heat oil in a pan and sauté the garlic and onion until fragrant.",
+          "Add the chicken and cook until browned.",
+          "Stir in the rice and turmeric powder, mixing well to coat the rice.",
+          "Pour in the coconut milk and broth, then bring to a boil. Reduce heat and let it simmer.",
+          "Add the bell pepper, carrot, and raisins. Cover and cook until the rice is tender and the liquid is absorbed.",
+          "Line a pan with banana leaves, then transfer the cooked rice into it. Flatten and cover with more banana leaves.",
+          "Cook over low heat until the bottom is slightly toasted. Serve warm."
+        ],
+        "imgPath": "assets/dish-img/bringhe.jpg"
+      },
+      {
+        "dishId": 20,
+        "dishType": "chicken",
+        "name": "Pininyahang Manok",
+        "ingredients": [
+          "500g chicken, cut into serving pieces",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1 cup pineapple chunks (with juice)",
+          "1 carrot, sliced",
+          "1 bell pepper, sliced",
+          "1 cup evaporated milk or coconut milk",
+          "1 tablespoon fish sauce (patis)",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Heat oil in a pan and sauté the garlic and onion until softened.",
+          "Add the chicken and cook until browned.",
+          "Pour in the pineapple juice and let it simmer until the chicken is tender.",
+          "Add the pineapple chunks, carrots, and bell pepper. Cook until the vegetables are tender.",
+          "Stir in the evaporated milk and season with fish sauce, salt, and pepper.",
+          "Simmer until the sauce thickens. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/pininyahan.jpg"
+      }
     ],
-     "procedure" : 
-    [
-        "Boil the pork belly or pork face until tender. Drain and chop into small pieces.",
-        "Heat oil in a pan and sauté the onions and chilies until softened.",
-        "Add the chopped pork, soy sauce, vinegar, and calamansi juice.",
-        "Stir well and cook for a few minutes.",
-        "Season with salt and pepper to taste.",
-        "If you like it creamy, add mayonnaise and stir.",
-        "Serve the sisig on a sizzling plate and top with a raw egg (optional).",
-        "Serve with steamed rice."
-    ],
-     "img-path" : "assets/dish-img/chicken-1.jpg"
-},
 
-{
-    "dishId" : 3,
-    "dishtype" : "Pork",
-    "name" : "Pork Menudo",
-    "ingredients" : 
-    [
-        "500g pork, cut into cubes",
-        "1/2 cup pork liver, cut into cubes",
-        "1 potato, diced",
-        "1 carrot, diced",
-        "1/2 cup green peas",
-        "1/2 cup bell pepper, diced",
-        "1 onion, chopped",
-        "4 cloves garlic, minced",
-        "2 tomatoes, chopped",
-        "1/4 cup soy sauce",
-        "1/4 cup tomato sauce",
-        "1/4 cup raisins",
-        "1 cup water or broth",
-        "Salt and pepper to taste",
-        "1 tablespoon cooking oil"
-      ],
-     "procedure" : 
-    [
-        "Heat oil in a pot and sauté the garlic, onions, and tomatoes until soft.",
-        "Add the pork and cook until it turns brown.",
-        "Add the pork liver and cook for 5 minutes.",
-        "Add the soy sauce, tomato sauce, and water. Stir well and simmer for 10 minutes.",
-        "Add the potatoes, carrots, bell peppers, and green peas. Continue cooking until vegetables are tender.",
-        "Season with salt, pepper, and raisins.",
-        "Simmer for an additional 10 minutes before serving."
+    "fish" : [
+      {
+        "dishId": 21,
+        "dishType": "fish",
+        "name": "Paksiw na Galunggong",
+        "ingredients": [
+          "500g galunggong (mackerel scad), cleaned",
+          "1/2 cup vinegar",
+          "1/4 cup water",
+          "5 cloves garlic, crushed",
+          "1 onion, sliced",
+          "1 thumb-sized ginger, sliced",
+          "2 green chilies (siling haba)",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Arrange the fish in a pot. Add garlic, onion, and ginger.",
+          "Pour in vinegar and water. Season with salt and pepper.",
+          "Cover and simmer over low heat until fish is cooked and sauce is slightly reduced.",
+          "Add green chilies and cook for another minute. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/paksiw-gg.jpg"
+      },
+      {
+        "dishId": 22,
+        "dishType": "fish",
+        "name": "Sinigang na Bangus",
+        "ingredients": [
+          "1 whole bangus (milkfish), sliced",
+          "1 onion, quartered",
+          "2 tomatoes, quartered",
+          "1 radish (labanos), sliced",
+          "1 eggplant, sliced",
+          "1 bunch kangkong (water spinach)",
+          "1 pack sinigang mix or fresh tamarind extract",
+          "2 green chilies (siling haba)",
+          "6 cups water",
+          "Salt and fish sauce to taste"
+        ],
+        "procedure": [
+          "Boil water in a pot. Add onion and tomatoes, then cook until softened.",
+          "Add the bangus and simmer until cooked.",
+          "Mix in the sinigang mix or tamarind extract. Stir well.",
+          "Add radish, eggplant, and green chilies. Simmer until vegetables are tender.",
+          "Toss in the kangkong and season with salt and fish sauce. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/sinigang-bangus.jpg"
+      },
+      {
+        "dishId": 23,
+        "dishType": "fish",
+        "name": "Grilled Tilapia",
+        "ingredients": [
+          "1 whole tilapia, cleaned and scaled",
+          "3 cloves garlic, minced",
+          "1 thumb-sized ginger, grated",
+          "1 tomato, chopped",
+          "1 onion, chopped",
+          "Salt and pepper to taste",
+          "Banana leaves or aluminum foil for wrapping"
+        ],
+        "procedure": [
+          "Mix garlic, ginger, tomato, and onion. Season with salt and pepper.",
+          "Stuff the mixture into the fish's belly.",
+          "Wrap the fish in banana leaves or aluminum foil.",
+          "Grill over charcoal until both sides are cooked and slightly charred. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/grilled-tilapia.jpg"
+      },
+      {
+        "dishId": 24,
+        "dishType": "fish",
+        "name": "Relyenong Bangus",
+        "ingredients": [
+          "1 whole bangus (milkfish), cleaned and deboned",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1 tomato, chopped",
+          "1 carrot, diced",
+          "1 bell pepper, diced",
+          "1 egg, beaten",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Carefully remove the fish meat, keeping the skin intact.",
+          "Sauté garlic, onion, and tomato until softened. Add the fish meat and cook until done.",
+          "Mix in carrots, bell pepper, and beaten egg. Season with salt and pepper.",
+          "Stuff the mixture back into the fish skin.",
+          "Fry until golden brown on all sides. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/relyenong-bangus.jpg"
+      },
+      {
+        "dishId": 25,
+        "dishType": "fish",
+        "name": "Ginataang Tulingan",
+        "ingredients": [
+          "500g tulingan (mackerel tuna), cleaned",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1 thumb-sized ginger, sliced",
+          "2 cups coconut milk",
+          "1 cup coconut cream",
+          "2 green chilies (siling haba)",
+          "Pechay or spinach leaves",
+          "Salt and pepper to taste"
+        ],
+        "procedure": [
+          "Sauté garlic, onion, and ginger until fragrant.",
+          "Add the tulingan and pour in the coconut milk. Simmer until the fish is tender.",
+          "Add green chilies and pechay or spinach leaves.",
+          "Pour in the coconut cream and simmer until sauce thickens.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/ginataang-tulingan.jpg"
+      },
+      {
+        "dishId": 26,
+        "dishType": "fish",
+        "name": "Escabeche",
+        "ingredients": [
+          "1 whole fish (tilapia or lapu-lapu), cleaned and fried",
+          "1 onion, sliced",
+          "5 cloves garlic, minced",
+          "1 bell pepper, sliced",
+          "1 carrot, julienned",
+          "1 cup pineapple chunks (optional)",
+          "1/4 cup vinegar",
+          "1/4 cup sugar",
+          "1/2 cup water",
+          "2 tablespoons soy sauce",
+          "1 tablespoon cornstarch (dissolved in water)",
+          "Salt and pepper to taste"
+        ],
+        "procedure": [
+          "Fry the fish until golden brown. Set aside.",
+          "In a pan, sauté garlic and onion until fragrant. Add bell pepper and carrot.",
+          "Mix vinegar, sugar, soy sauce, and water. Pour into the pan and bring to a boil.",
+          "Add pineapple chunks (if using) and season with salt and pepper.",
+          "Stir in cornstarch slurry to thicken the sauce.",
+          "Pour the sauce over the fried fish. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/escabeche.jpg"
+      },
+      {
+        "dishId": 27,
+        "dishType": "fish",
+        "name": "Tinoyoang Tilapia",
+        "ingredients": [
+          "1 whole tilapia, cleaned and sliced",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "1 thumb-sized ginger, sliced",
+          "1/4 cup soy sauce",
+          "1/4 cup vinegar",
+          "1 cup water",
+          "1 tablespoon sugar",
+          "Salt and pepper to taste"
+        ],
+        "procedure": [
+          "Sauté garlic, onion, and ginger until fragrant.",
+          "Add tilapia and pour in soy sauce, vinegar, and water. Simmer until fish is cooked.",
+          "Stir in sugar and season with salt and pepper.",
+          "Simmer until sauce is slightly reduced. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/tinoyoang-tilapia.jpg"
+      },
+      {
+        "dishId": 28,
+        "dishType": "fish",
+        "name": "Sarciadong Tilapia",
+        "ingredients": [
+          "1 whole tilapia, cleaned and fried",
+          "1 onion, chopped",
+          "5 cloves garlic, minced",
+          "2 tomatoes, chopped",
+          "2 eggs, beaten",
+          "1 cup water",
+          "Salt and pepper to taste",
+          "Cooking oil"
+        ],
+        "procedure": [
+          "Sauté garlic, onion, and tomatoes until softened.",
+          "Pour in water and bring to a boil.",
+          "Add the fried tilapia and simmer for a few minutes.",
+          "Slowly pour beaten eggs while stirring gently.",
+          "Season with salt and pepper. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/sarciadong-tilapia.jpg"
+      },
+      {
+        "dishId": 29,
+        "dishType": "fish",
+        "name": "Pinangat na Bisugo",
+        "ingredients": [
+          "500g bisugo (threadfin bream), cleaned",
+          "1 onion, sliced",
+          "5 cloves garlic, crushed",
+          "1 thumb-sized ginger, sliced",
+          "1/2 cup vinegar",
+          "1/4 cup water",
+          "2 green chilies (siling haba)",
+          "Salt and pepper to taste"
+        ],
+        "procedure": [
+          "Arrange fish in a pot. Add garlic, onion, and ginger.",
+          "Pour in vinegar and water. Season with salt and pepper.",
+          "Cover and simmer over low heat until fish is cooked.",
+          "Add green chilies and cook for another minute. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/bisugo-pangat.jpg"
+      },
+      {
+        "dishId": 30,
+        "dishType": "fish",
+        "name": "Steamed Pompano",
+        "ingredients": [
+          "1 whole pompano, cleaned",
+          "1 thumb-sized ginger, sliced into strips",
+          "3 cloves garlic, minced",
+          "1 onion, sliced",
+          "1 tomato, chopped",
+          "2 tablespoons soy sauce",
+          "1 tablespoon sesame oil",
+          "1 tablespoon oyster sauce",
+          "Spring onions for garnish"
+        ],
+        "procedure": [
+          "Stuff the fish with ginger, garlic, onion, and tomato.",
+          "Place the fish on a steaming plate.",
+          "Mix soy sauce, sesame oil, and oyster sauce, then pour over the fish.",
+          "Steam for about 20-25 minutes until the fish is cooked.",
+          "Garnish with spring onions and serve hot."
+        ],
+        "imgPath": "assets/dish-img/steamed-pompano.jpg"
+      },
+      {
+        "dishId": 31,
+        "dishType": "fish",
+        "name": "Sinaing na Tulingan",
+        "ingredients": [
+          "500g tulingan (mackerel tuna), cleaned and gutted",
+          "1/2 cup dried kamias (or fresh if available)",
+          "5 cloves garlic, crushed",
+          "1 thumb-sized ginger, sliced",
+          "1/4 cup cooking oil",
+          "Salt to taste",
+          "Water (enough to cover the fish)",
+          "Banana leaves for wrapping"
+        ],
+        "procedure": [
+          "Rub the fish with salt and let it sit for 30 minutes.",
+          "Wrap each fish in banana leaves and place them in a pot.",
+          "Add dried kamias, garlic, and ginger. Pour enough water to cover the fish.",
+          "Simmer over low heat until the fish is tender and water is almost evaporated.",
+          "Pour cooking oil and continue cooking until slightly toasted. Serve hot."
+        ],
+        "imgPath": "assets/dish-img/sinaing-na-tulingan.jpg"
+      }
     ],
-     "img-path" : "assets/dish-img/chicken-1.jpg"
-},
 
-{
-    "dishId" : 4,
-    "dishtype" : "Pork",
-    "name" : "Lechon Kawali",
-    "ingredients" : 
-    [
-        "1 kg pork belly",
-        "1 onion, quartered",
-        "5 cloves garlic, smashed",
-        "2 bay leaves",
-        "1 tablespoon peppercorns",
-        "Salt to taste",
-        "Oil for frying"
-    ],
-     "procedure" : 
-    [
-        "Boil the pork belly in a pot of water with onion, garlic, bay leaves, peppercorns, and salt.",
-        "Boil for about 45 minutes or until tender.",
-        "Let the pork belly cool, then pat dry.",
-        "Heat oil in a deep pan and fry the pork belly until golden and crispy.",
-        "Slice the pork into bite-sized pieces and serve with dipping sauce."
-    ],
-     "img-path" : "assets/dish-img/chicken-1.jpg"
-},
+    "vegetable" : [],
 
-{
-    "dishId" : 5,
-    "dishtype" : "Pork",
-    "name" : "Pork Nilaga",
-    "ingredients" : 
-    [
-        "500g pork (preferably pork belly or bone-in cuts)",
-        "1 onion, quartered",
-        "3 cloves garlic, crushed",
-        "2 potatoes, quartered",
-        "1 corn on the cob, cut into pieces",
-        "1 bundle of pechay (bok choy)",
-        "1 bunch string beans (sitaw)",
-        "Salt and pepper to taste",
-        "Water"
-    ],
-     "procedure" : 
-    [
-        "In a large pot, combine pork, onion, garlic, and enough water to cover the meat.",
-        "Boil for 1-1.5 hours until the pork is tender.",
-        "Add potatoes and corn, and cook for another 10-15 minutes.",
-        "Add the string beans and pechay. Simmer for another 5 minutes.",
-        "Season with salt and pepper, and serve."
-    ],
-     "img-path" : "assets/dish-img/chicken-1.jpg"
-},
+    "noodle" : [],
 
-{
-    "dishId" : 6,
-    "dishtype" : "Pork",
-    "name" : "Pork Dinuguan",
-    "ingredients" : 
-    [
-        "500g pork (liver, heart, or belly), cut into chunks",
-        "1 cup pork blood (available in Asian markets)",
-        "1 onion, chopped",
-        "5 cloves garlic, minced",
-        "2 green chilies, chopped",
-        "1 tablespoon vinegar",
-        "2 cups water or broth",
-        "Salt and pepper to taste",
-        "Cooking oil"
-    ],
-     "procedure" : 
-    [
-        "Heat oil in a pot and sauté the garlic, onions, and chilies until fragrant.",
-        "Add the pork and cook until browned.",
-        "Pour in the vinegar and let it simmer for 5 minutes to cook off the vinegar.",
-        "Add the pork blood and water or broth. Stir gently to combine.",
-        "Simmer for 30-40 minutes or until the pork is tender.",
-        "Season with salt and pepper, and serve hot."
-    ],
-     "img-path" : "assets/dish-img/chicken-1.jpg"
-}
+    "beef" : [],
 
+    "seafood" : [],
 
-]
+    "dessert" : []
+
+}]
+  
