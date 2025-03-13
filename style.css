@@ -48,14 +48,16 @@
   flex: 1 0 100%;
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
   scroll-snap-align: start;
 }
 .img-slider .wrapper .slider .slide img {
   flex: 1 0 100%;
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
   scroll-snap-align: start;
 }
 .img-slider .wrapper .slider .slide .slidish-texts {
@@ -81,7 +83,8 @@
 }
 .img-slider .wrapper .slider-nav {
   display: flex;
-  column-gap: 1em;
+  -moz-column-gap: 1em;
+       column-gap: 1em;
   position: absolute;
   top: 1.5em;
   left: 50%;
@@ -227,7 +230,8 @@ header .web-tagline {
 .cat-section .categories tr td {
   height: 15em;
   width: 20%;
-  column-gap: 2em;
+  -moz-column-gap: 2em;
+       column-gap: 2em;
 }
 
 .book {
@@ -247,7 +251,8 @@ header .web-tagline {
 .book__cover-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 0.3em;
 }
 .book__cover-title {
@@ -315,6 +320,73 @@ header .web-tagline {
   min-height: 10em;
 }
 
+#about-body {
+  background-image: url(assets/img/hero-bg.png);
+}
+
+#about-main {
+  box-sizing: border-box;
+  size: 100%;
+}
+
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.profile-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.profile-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about-description {
+  display: inline-block;
+  flex: 1;
+  padding: 30px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#about-aside {
+  width: 30%;
+  text-align: justify;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  margin: 20px;
+  color: white;
+}
+
+#about-section {
+  display: inline-block;
+  width: 70%;
+  text-align: justify;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  margin: 20px;
+  color: white;
+}
+
 #favorites {
   font-family: "Kurale", serif;
   background: url("assets/img/favoritesBG1.png");
@@ -322,7 +394,8 @@ header .web-tagline {
   color: white;
   background-size: cover;
   background-position: center;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #favorites .container {
   max-width: 1200px;
@@ -398,7 +471,8 @@ header .web-tagline {
 #top-dish .dishImg {
   width: 235px;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 15px;
   margin: 0 1em;
   transition: transform 1000ms, opacity 1000ms;

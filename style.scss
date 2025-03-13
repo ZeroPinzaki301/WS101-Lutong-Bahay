@@ -369,6 +369,65 @@ header {
 }
 
 // about page - ian
+#about-body{
+    background-image: url(assets/img/hero-bg.png);
+}
+#about-main{
+    box-sizing: border-box;
+    size: 100%;
+}
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.profile-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.profile-image{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.profile-name {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    text-align: center;
+}
+.about-description {
+    display: inline-block;
+    flex: 1; 
+    padding: 30px;
+}
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#about-aside {
+    width: 30%;
+    text-align: justify;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.90);
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+}
+
+#about-section {
+    display: inline-block;
+    width: 70%;
+    text-align: justify;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.90);
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+}
+
 
 // favorites page - mark
 #favorites {
