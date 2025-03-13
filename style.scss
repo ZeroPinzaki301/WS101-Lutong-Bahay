@@ -16,8 +16,10 @@
 *{
     margin: 0;
     padding: 0;
+    // border: 1px solid black;
     font-family: kyiv;
     text-decoration: none;
+
     body {
         background-color: antiquewhite;
     }
@@ -25,6 +27,10 @@
 
 
 // reusable
+
+footer {
+    min-height: 10em;
+}
 
 .img-slider {
     grid-column-start: 2;
@@ -121,29 +127,24 @@
 header {
     min-height: 5em;
     display: grid;
-    padding: 0 2em;
     grid-template-columns: 4fr 6fr;
     align-items: center;
     background-image: url(assets/img/header-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 6.5em;
-    overflow: hidden;
+    background-size: 100% 5em;
 
 
     .web-title {
-        height: 100%;
+        height: 1.65em;
         text-align: center;
+        font-size: 2.5em;
         font-weight: 600;
         letter-spacing: .07em;
         display: grid;
-        grid-template-columns: 1.5fr 6.3fr 2.2fr;
+        grid-template-columns: 1.5fr 6.5fr 2fr;
         color: green;
 
         .icon {
-            aspect-ratio: 1;
-            align-self: center;
-            max-height: 80%;
             background-image: url('assets/img/lutong-bahay-logo.png');
             background-size: contain;
             background-repeat: no-repeat;
@@ -155,17 +156,12 @@ header {
         }
 
         p {
-            align-self: center;
-            font-size: clamp(1.5em, 2.5vw, 2.25em);
+            margin: .25em 0 0 0;
         }
-        
+
         .logo-design {
-            align-self: center;
-            height: 80%;
-            width: 100%;
             background-image: url('assets/img/logo-design.png');
-            background-size: cover;
-            background-position: center;
+            background-size: contain;
             background-repeat: no-repeat;
         }
     }
@@ -186,7 +182,7 @@ header {
     position: sticky;
     top: 0;
     background-color: rgba(0, 0, 0, 0.705);
-    z-index: 10; // Increase z-index to ensure it appears above other elements
+    z-index: 1;
 
     &__buttons {
         font-size: 1.4em;
@@ -203,36 +199,6 @@ header {
             text-decoration: underline;
             text-shadow: -.2em 0 .3em rgb(255, 140, 8);
             color: rgb(0, 0, 0);
-        }
-    }
-
-    .dropdown {
-        position: relative;
-        display: inline-block;
-
-        .content {
-            display: none;
-            position: absolute;
-            background-color: white;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            z-index: 20; // Ensure the dropdown appears above other elements
-            padding: 12px 16px;
-
-            a {
-                color: black;
-                padding: 12px 16px;
-                text-decoration: none;
-                display: block;
-
-                &:hover {
-                    background-color: #ddd;
-                }
-            }
-        }
-
-        &:hover .content {
-            display: block;
         }
     }
 }
@@ -362,6 +328,7 @@ header {
 // home page and default
 .home-body-container {
     display: grid;
+    background-color: antiquewhite;
 
     hr {
         width: 90%;
@@ -369,7 +336,7 @@ header {
     }
 
     main {
-        min-height: 42.5em;
+        min-height: 45em;
         display: grid;
         align-items: center;
         grid-template-columns: 60% 40%;
@@ -414,11 +381,8 @@ header {
             text-shadow: -6px 0 rgb(104, 32, 14);
         }
 
-    footer {
-        min-height: 10em;
-    }
-
 }
+
 
 // about page - ian
 
@@ -483,14 +447,13 @@ header {
 
 
 // favorites page - mark
+
 #favorites {
     font-family: 'Kurale', serif;
     background: url('assets/img/favoritesBG1.png');
     min-height: 85vh;
     color: white;
     background-size: cover;
-    background-position: center;
-    object-fit: cover;
 
     .container {
         max-width: 1200px;
@@ -505,7 +468,8 @@ header {
             top: 0;
             left: 0;
             min-height: 84vh;
-            background: rgba(0, 0, 0, 0.5);
+            background: rgba(0, 0, 0, 0.5); // Dark overlay for better readability
+            z-index: 1;
         }
 
         h2 {
@@ -521,7 +485,6 @@ header {
             font-weight: 700;
             letter-spacing: 0.05em;
             padding-left: 3%;
-
             margin-bottom: 20px;
             font-family: kurale;
         }
@@ -538,17 +501,16 @@ header {
             font-family: kurale;
 
             span {
-                margin-top: 5px; 
+                margin-top: 5px; // Moves "for every category" down slightly
                 padding-left: 7%;
             }
         }
     }
 }
-
 #top-dish {
     background-color: black;
-    text-align: center;
-    padding-bottom: 50px;
+    text-align: center; /* Center the text and elements inside */
+    padding-bottom: 50px; /* Add padding to the bottom */
 
     .wrapper {
         max-height: 350px; /* Adjusted max-height */
@@ -560,54 +522,24 @@ header {
         padding: 20px; /* Add padding if needed */
         margin: 0 auto; /* Center the wrapper container */
         width: calc(250px * 4 + 20px * 5 + 40px); /* Width for 4 images + margins + padding */
-        transition: 0.5s; /* Smooth transition */
-        cursor: pointer;
     }
 
     .wrapper::-webkit-scrollbar {
         width: 0;
     }
 
-    .dish-container {
-        position: relative; /* Ensure the read-more is positioned relative to the container */
-        transition: transform 1000ms, opacity 1000ms;
-    }
-
     .dishImg {
-        width: 235px;
-        height: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-        margin: 0 1em;
-        transition: transform 1000ms, opacity 1000ms;
-    }
-
-    .dish-container:hover .dishImg {
-        transform: scale(1.05);
-        opacity: 0.5;
-    }
-
-    .read-more {
-        display: none; /* Hide by default */
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-        background-color: rgb(0, 0, 0);
-        padding: 5px 10px;
-        border-radius: 5px;
-    }
-
-    .dish-container:hover .read-more {
-        display: block; /* Show on hover */
+        width: 235px; /* Increased width */
+        height: 300px; /* Increased height */
+        object-fit: cover; /* Cover the container while maintaining aspect ratio */
+        border-radius: 15px; /* Add border radius if needed */
+        margin: 0 1em; /* Add margin between images */
     }
 
     .dishText {
         color: white;
-        margin-top: 10px;
-        font-size: 1em;
+        margin-top: 10px; /* Space between image and text */
+        font-size: 1em; /* Adjust font size as needed */
     }
 
     hr.line {
@@ -616,48 +548,18 @@ header {
         margin: 0 auto 50px auto; /* Centers the hr element */
         background-position: center;
         position: relative; /* Ensure the pseudo-element is positioned relative to the hr */
-        font-family: kurale;
-
-        &::before {
-            content: "";
-            position: absolute;
-            top: -20px; /* Adjust the position as needed */
-            left: 0;
-            width: 100%;
-            height: 20px; /* Adjust the height as needed */
-            background-color: black; /* Black background color */
-        }
-    }
+    }   
 
     h2 {
         color: white;
         margin-bottom: 50px;
     }
 }
+
+
 // categories page - any
 
-    // dropdown for categories by yours truly :p
-.dropdown a{
-    display: block;
-    color: black;
-    text-decoration: none;
-    padding: 10px 15px;
-}
-  
-.dropdown .content{
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 100px;
-    box-shadow: 2px 2px 5px black;
-}
-.dropdown:hover .content{
-    display: block;
-}
 
-.dropdown .content a:hover{
-    background-color: #db6464;
-}
 
 // origins page - alejandre
 
@@ -676,11 +578,13 @@ header {
             height: 90%;
             width: 80%;
         }
+
         
     }
 }
 
 // contact page - done
+
 .contacts-body-container {
     background-image: url('assets/img/contact-us-bg.jpg');
     background-size: cover;
