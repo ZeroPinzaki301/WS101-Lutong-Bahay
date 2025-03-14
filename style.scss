@@ -658,24 +658,194 @@ header {
     background-color: #db6464;
 }
 
-// origins page - alejandre
+// origins page - alejandre/mark
 
 .origins-page-container {
     display: grid;
 
+    .hero {
+        background-image: url('assets/img/origins-bg1.jpg');
+        background-position: center;
+        background-size: cover;
+        &__child {
+            border-radius: .5em;
+            height: 80%;
+            width: 80%;
+            background-color: rgba(255, 255, 255, 0);
+        }
+        h2 {
+            font-size: 6em; /* Adjust as needed */
+            text-align: center;
+            font-family: kurale;
+            padding: 2px;
+            letter-spacing: .150em;
+            color: white;
+            text-shadow: black -5px 3.5px 0;
+            span {
+                font-family: kurale;
+                font-size: .65em; /* Different font size for "of" */
+                color: rgb(255, 255, 255); 
+            }
+        }
+        p {
+            text-align: center;
+            font-size: 1.25em;
+            letter-spacing: .25em;
+            color: white;
+            margin: 1em 0 0 0;    
+            padding: 0 4em;    
+            text-shadow: black -1px 2px 0;    
+            line-height: 1.5em;
+        }
+    }
+
+    .influence{
+        color: white;
+        text-align: justify;
+        font-size: 2.5em;
+        font-family: kurale;
+        margin-left: 2em;
+        align-self: center;
+    }
+
+    .native{
+        background-image: url('assets/img/ph-flag.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+
+        .person {
+            align-self: center;
+            width: auto;
+            height: 75%;
+            background-image: url('assets/img/native-influence.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+    
+    .influence{
+        color: white;
+        text-align: justify;
+        font-size: 2.5em;
+        font-family: kurale;
+        margin: 0 2em;
+        align-self: center;
+    }
+    
+    .spanish{
+        background-image: url('assets/img/sp-flag.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+
+        .person {
+            align-self: center;
+            width: auto;
+            height: 75%;
+            background-image: url('assets/img/spanish-influence.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .chinese{
+        background-image: url('assets/img/cn-flag.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+
+        .person {
+            align-self: center;
+            width: auto;
+            height: 75%;
+            background-image: url('assets/img/chinese-influence.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .american{
+        background-image: url('assets/img/us-flag.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+
+        .person {
+            align-self: center;
+            width: auto;
+            height: 75%;
+            background-image: url('assets/img/american-influence.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .japanese{
+        background-image: url('assets/img/jp-flag.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+
+        .person {
+            align-self: center;
+            width: auto;
+            height: 75%;
+            background-image: url('assets/img/japanese-influence.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .modern{
+        background-image: url('assets/img/origins-bg2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+
+        .person {
+            align-self: center;
+            width: auto;
+            height: 75%;
+            background-image: url('assets/img/modern-filipino.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+
     .card {
-        border: 1px solid black;
         min-height: 80vh;
         display: flex;
         justify-content: center;
         align-items: center;
 
         &__child {
-            border: 1px solid black;
-            height: 90%;
+            border-radius: .5em;
+            height: 80%;
             width: 80%;
+            background-color: rgba(255, 68, 0, 0.747);
+            padding: 0 2.5em;
         }
-        
+    }
+    .left {
+        display: grid;
+        grid-template-columns: 3.5fr 6.5fr; 
+    }
+    .right {
+        display: grid;
+        grid-template-columns: 6.5fr 3.5fr; 
     }
 }
 

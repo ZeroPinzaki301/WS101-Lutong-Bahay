@@ -48,16 +48,14 @@
   flex: 1 0 100%;
   width: 100%;
   height: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   scroll-snap-align: start;
 }
 .img-slider .wrapper .slider .slide img {
   flex: 1 0 100%;
   width: 100%;
   height: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   scroll-snap-align: start;
 }
 .img-slider .wrapper .slider .slide .slidish-texts {
@@ -83,8 +81,7 @@
 }
 .img-slider .wrapper .slider-nav {
   display: flex;
-  -moz-column-gap: 1em;
-       column-gap: 1em;
+  column-gap: 1em;
   position: absolute;
   top: 1.5em;
   left: 50%;
@@ -230,8 +227,7 @@ header .web-tagline {
 .cat-section .categories tr td {
   height: 15em;
   width: 20%;
-  -moz-column-gap: 2em;
-       column-gap: 2em;
+  column-gap: 2em;
 }
 
 .book {
@@ -251,8 +247,7 @@ header .web-tagline {
 .book__cover-img img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 0.3em;
 }
 .book__cover-title {
@@ -447,8 +442,7 @@ header .web-tagline {
   color: white;
   background-size: cover;
   background-position: center;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #favorites .container {
   max-width: 1200px;
@@ -524,8 +518,7 @@ header .web-tagline {
 #top-dish .dishImg {
   width: 235px;
   height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 15px;
   margin: 0 1em;
   transition: transform 1000ms, opacity 1000ms;
@@ -596,17 +589,173 @@ header .web-tagline {
 .origins-page-container {
   display: grid;
 }
+.origins-page-container .hero {
+  background-image: url("assets/img/origins-bg1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.origins-page-container .hero__child {
+  border-radius: 0.5em;
+  height: 80%;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0);
+}
+.origins-page-container .hero h2 {
+  font-size: 6em; /* Adjust as needed */
+  text-align: center;
+  font-family: kurale;
+  padding: 2px;
+  letter-spacing: 0.15em;
+  color: white;
+  text-shadow: black -5px 3.5px 0;
+}
+.origins-page-container .hero h2 span {
+  font-family: kurale;
+  font-size: 0.65em; /* Different font size for "of" */
+  color: rgb(255, 255, 255);
+}
+.origins-page-container .hero p {
+  text-align: center;
+  font-size: 1.25em;
+  letter-spacing: 0.25em;
+  color: white;
+  margin: 1em 0 0 0;
+  padding: 0 4em;
+  text-shadow: black -1px 2px 0;
+  line-height: 1.5em;
+}
+.origins-page-container .influence {
+  color: white;
+  text-align: justify;
+  font-size: 2.5em;
+  font-family: kurale;
+  margin-left: 2em;
+  align-self: center;
+}
+.origins-page-container .native {
+  background-image: url("assets/img/ph-flag.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.origins-page-container .native .person {
+  align-self: center;
+  width: auto;
+  height: 75%;
+  background-image: url("assets/img/native-influence.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.origins-page-container .influence {
+  color: white;
+  text-align: justify;
+  font-size: 2.5em;
+  font-family: kurale;
+  margin: 0 2em;
+  align-self: center;
+}
+.origins-page-container .spanish {
+  background-image: url("assets/img/sp-flag.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.origins-page-container .spanish .person {
+  align-self: center;
+  width: auto;
+  height: 75%;
+  background-image: url("assets/img/spanish-influence.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.origins-page-container .chinese {
+  background-image: url("assets/img/cn-flag.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.origins-page-container .chinese .person {
+  align-self: center;
+  width: auto;
+  height: 75%;
+  background-image: url("assets/img/chinese-influence.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.origins-page-container .american {
+  background-image: url("assets/img/us-flag.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.origins-page-container .american .person {
+  align-self: center;
+  width: auto;
+  height: 75%;
+  background-image: url("assets/img/american-influence.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.origins-page-container .japanese {
+  background-image: url("assets/img/jp-flag.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.origins-page-container .japanese .person {
+  align-self: center;
+  width: auto;
+  height: 75%;
+  background-image: url("assets/img/japanese-influence.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.origins-page-container .modern {
+  background-image: url("assets/img/origins-bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.origins-page-container .modern .person {
+  align-self: center;
+  width: auto;
+  height: 75%;
+  background-image: url("assets/img/modern-filipino.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .origins-page-container .card {
-  border: 1px solid black;
   min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .origins-page-container .card__child {
-  border: 1px solid black;
-  height: 90%;
+  border-radius: 0.5em;
+  height: 80%;
   width: 80%;
+  background-color: rgba(255, 68, 0, 0.747);
+  padding: 0 2.5em;
+}
+.origins-page-container .left {
+  display: grid;
+  grid-template-columns: 3.5fr 6.5fr;
+}
+.origins-page-container .right {
+  display: grid;
+  grid-template-columns: 6.5fr 3.5fr;
 }
 
 .contacts-body-container {
