@@ -6,6 +6,6 @@ $(document).ready(function(){
       dots: true,
       arrows: true,
       autoplay: true,
-      autoplaySpeed: 30000
+      autoplaySpeed: 7000
     });
   });

@@ -23,7 +23,6 @@
     }
 }
 
-
 // reusable
 
 .img-slider {
@@ -194,6 +193,12 @@ footer {
             background-size: 75% 50%;
             background-repeat: no-repeat;
             background-position: center;
+            transition: all 300ms ease-in-out;
+
+            &:hover {
+                background-color: #eaf89a38;
+                opacity: .75;
+            }
 
             a {
 
@@ -210,17 +215,33 @@ footer {
             &__content {
                 display: flex;
                 flex-direction: column;
+                margin: 0 0 1em 0;
 
                 a {
-                    color: black;
-                    margin: .25em 0;
+                    color: rgba(46, 46, 46, 0.712);
+                    margin: .25em .5em;
+                    transition: all 300ms ease-in-out;
+                    font-weight: 400;
+                    letter-spacing: .05em;
+                    text-shadow: -.1em 0 .15em rgb(151, 151, 151);
+
+                    &:hover {
+                        text-decoration: underline;
+                        text-shadow: -.2em 0 .3em rgb(255, 140, 8);
+                        color: #502001;
+                    }
+
+                    &:active {
+
+                    }
                 }
             }
 
             &__title {
-                font-weight: 600;
-                font-size: 1.25em;
+                font-weight: 700;
+                font-size: 1.5em;
                 margin: .5em 0;
+                letter-spacing: .1em;
             }
             
         }
@@ -228,11 +249,16 @@ footer {
     }
 
     p {
+        letter-spacing: .1em;
         align-self: center;
         text-align: center;
         margin: .75em 0 ;
+        hr {
+            margin: 1em 0 0 0;
+        }
     }
 }
+
 .navbar {
     min-height: 2em;
     display: flex;
@@ -471,68 +497,83 @@ footer {
 
 // about page - ian
 #about-body{
-    background-image: url(assets/img/hero-bg.png);
-    background-repeat: no-repeat;
-}
-#about-main{
-    box-sizing: border-box;
-    size: 100%;
-}
-.profile-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-.profile-image-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-.profile-image{
-    height: 250px;
-    width: 250px;
-    margin: 20px;
-    border-radius: 20px;
-}
-.profile-name {
-    margin-top: 10px;
-    margin-bottom: 10px; 
-    text-align: center;
-}
-.about-description {
-    display: inline-block;
-    flex: 1; 
-    padding: 30px;
-}
-.content-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-#about-aside {
-    width: 30%;
-    text-align: justify;
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.90);
-    border-radius: 20px;
-    margin: 20px;
-    color: white;
-}
 
-#about-section {
-    display: inline-block;
-    width: 70%;
-    text-align: justify;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.90);
-    border-radius: 20px;
-    margin: 20px;
-    color: white;
-}
-#about-main p{
-    font-size: 1.5em;
-}
+    .about-grid {
+        background-image: url('assets/img/about-us-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.9;
+    }
+    
+    #about-main{
+        box-sizing: border-box;
+        size: 100%;
+    }
 
+    .profile-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .profile-image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .profile-image{
+        height: 250px;
+        width: 250px;
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+    .profile-name {
+        margin-top: 10px;
+        margin-bottom: 10px; 
+        text-align: center;
+    }
+
+    .about-description {
+        display: inline-block;
+        flex: 1; 
+        padding: 30px;
+    }
+
+    .content-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #about-aside {
+        width: 30%;
+        text-align: justify;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.90);
+        border-radius: 20px;
+        margin: 20px;
+        color: white;
+    }
+    
+    #about-section {
+        display: inline-block;
+        width: 70%;
+        text-align: justify;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.90);
+        border-radius: 20px;
+        margin: 20px;
+        color: white;
+    }
+
+    #about-main p{
+        font-size: 1.5em;
+    }
+
+}
 
 // favorites page - mark
 #favorites {
@@ -707,7 +748,6 @@ footer {
         }
     }
 }
-
 
 // categories page - any
 
