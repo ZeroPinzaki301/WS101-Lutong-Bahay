@@ -606,6 +606,62 @@ header {
         margin-bottom: 50px;
     }
 }
+#hall-of-fame{
+    width: 100%;
+    min-height: 90vh;
+    background-image: url('assets/img/favortiesbg2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: kurale;
+
+    .red-filter {
+        background-color: rgba(167, 22, 3, 0.623);
+    }
+
+    .hof-title{
+        display: grid;
+        grid-template-columns: 4fr 2fr 4fr;
+        text-align: center;
+        padding: 1em 0;
+        background-image: linear-gradient(180deg, black, rgba(0, 0, 0, 0.705), rgba(255, 255, 255, 0));
+        hr {
+            color: rgb(255, 255, 255);
+            height: 3px;
+            align-self: center;
+            margin: 0 5em;
+        }
+        h2{
+            color: white;
+            font-weight: 300;
+        }
+    }
+
+    .favorites-history{
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        text-align: center;
+        
+        ul{
+            list-style-type: none;
+            background-color: rgba(238, 135, 121, 0.849);
+            margin: 1.25em 5em 1em 5em;
+            padding: 1em 0;
+            border-radius: 5em .2em 5em .2em;
+            
+            li{
+                margin-bottom: 1em;
+                font-size: 1.5em;
+                font-weight: 500;
+
+                span{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
 // categories page - any
 
     // dropdown for categories by yours truly :p
