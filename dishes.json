@@ -1,4 +1,4 @@
-[{
+{
     "pork": [
       {
         "dishId": 1,
@@ -24,7 +24,7 @@
           "Lower the heat and simmer for 40-50 minutes or until the meat is tender.",
           "Season with salt and pepper to taste and serve with rice."
         ],
-        "imgPath": "assets/dish-img/pork-1.jpg"
+        "imgPath": "assets/dish-img/pork-adobo.jpg"
       },
       {
         "dishId": 2,
@@ -1988,4 +1988,4 @@
       }      
     ]
 
-}]
+}
