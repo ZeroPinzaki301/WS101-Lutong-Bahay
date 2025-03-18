@@ -317,7 +317,7 @@ footer p hr {
   width: 70%;
   height: 27.5%;
   color: white;
-  font-size: 1.5em;
+  font-size: clamp(0.75em, 1.5vw, 1.5em);
   margin: 0.3em 0 0 0.5em;
   letter-spacing: 0.3em;
 }
