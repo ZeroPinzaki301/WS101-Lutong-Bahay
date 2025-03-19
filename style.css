@@ -20,6 +20,15 @@
   background-color: antiquewhite;
 }
 
+.back-to-cat {
+  padding: 0.2em 1em;
+  border-radius: 1em 0 0 1em;
+  font-size: 1.5em;
+  margin: 0.25em 0.75em;
+  display: inline-block;
+  background-color: rgba(255, 68, 0, 0.747);
+}
+
 .img-slider {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -299,6 +308,8 @@ footer p hr {
   background-position: center;
   background-repeat: no-repeat;
   padding: 1em;
+  cursor: pointer;
+  transition: all 500ms;
 }
 .book__cover-img {
   width: 89%;
@@ -325,6 +336,9 @@ footer p hr {
   margin-top: 0.75em;
   font-size: 0.75em;
   letter-spacing: 0.2em;
+}
+.book:hover {
+  transform: scale(1.05);
 }
 
 .blurred {
@@ -413,7 +427,7 @@ footer p hr {
   background-image: url(assets/img/kapis-window.png);
   background-size: 100% 100%;
 }
-.home-body-container aside {
+.home-body-container main aside {
   height: 100%;
   background-color: rgba(43, 1, 1, 0.438);
   font-family: kurale;
@@ -422,6 +436,47 @@ footer p hr {
   font-weight: 600;
   color: rgb(235, 238, 208);
   text-shadow: -6px 0 rgb(104, 32, 14);
+}
+.home-body-container .home-showcase {
+  padding: 2em 1em;
+  gap: 1em;
+  display: grid;
+  grid-template-rows: 5fr 5fr;
+  border: 1px solid black;
+  min-height: 120vh;
+}
+.home-body-container .home-showcase .bahay {
+  background-image: url(assets/img/homebg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+}
+.home-body-container .home-showcase .bahay .bahay-desc {
+  text-align: justify;
+  padding: 1em;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  font-size: 1.5em;
+  color: white;
+  background-image: linear-gradient(to top left, rgb(1, 2, 87), rgba(0, 68, 255, 0.863));
+}
+.home-body-container .home-showcase .hapag {
+  background-image: url(assets/img/homebg2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+}
+.home-body-container .home-showcase .hapag .hapag-desc {
+  text-align: justify;
+  padding: 1em;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  font-size: 1.5em;
+  color: white;
+  background-image: linear-gradient(to bottom right, rgb(87, 1, 1), rgba(255, 51, 0, 0.678));
 }
 
 #about-body .about-grid {
@@ -533,23 +588,23 @@ footer p hr {
   padding-bottom: 50px;
 }
 #top-dish .wrapper {
-  max-height: 350px; /* Adjusted max-height */
+  max-height: 350px;
   border: 1px solid;
   display: flex;
-  justify-content: flex-start; /* Align images to the start */
-  align-items: center; /* Center the images vertically */
-  overflow-x: auto; /* Enable horizontal scrolling */
-  padding: 20px; /* Add padding if needed */
-  margin: 0 auto; /* Center the wrapper container */
-  width: 1140px; /* Width for 4 images + margins + padding */
-  transition: 0.5s; /* Smooth transition */
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+  padding: 20px;
+  margin: 0 auto;
+  width: 1140px;
+  transition: 0.5s;
   cursor: pointer;
 }
 #top-dish .wrapper::-webkit-scrollbar {
   width: 0;
 }
 #top-dish .dish-container {
-  position: relative; /* Ensure the read-more is positioned relative to the container */
+  position: relative;
   transition: transform 1000ms, opacity 1000ms;
 }
 #top-dish .dishImg {
@@ -566,7 +621,7 @@ footer p hr {
   opacity: 0.5;
 }
 #top-dish .read-more {
-  display: none; /* Hide by default */
+  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -578,7 +633,7 @@ footer p hr {
   border-radius: 5px;
 }
 #top-dish .dish-container:hover .read-more {
-  display: block; /* Show on hover */
+  display: block;
 }
 #top-dish .dishText {
   color: white;
@@ -586,15 +641,15 @@ footer p hr {
   font-size: 1em;
 }
 #top-dish hr.line {
-  margin: 0 auto 50px auto; /* Centers the hr element */
+  margin: 0 auto 50px auto;
 }
 #top-dish hr.line::before {
   content: "";
   position: absolute;
-  top: -20px; /* Adjust the position as needed */
+  top: -20px;
   left: 0;
   width: 100%;
-  height: 20px; /* Adjust the height as needed */
+  height: 20px;
 }
 #top-dish h2 {
   color: white;
@@ -709,6 +764,53 @@ footer p hr {
   background-color: white;
   width: 90%;
   height: 60%;
+}
+
+.dish-details-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+}
+.dish-details-container aside {
+  padding: 2em;
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+}
+.dish-details-container aside h1 {
+  text-align: center;
+  letter-spacing: 0.15em;
+  font-size: 2.75em;
+  text-decoration: underline;
+}
+.dish-details-container aside img {
+  width: 100%;
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 2em 0.2em;
+  border: 4px inset rgba(255, 214, 139, 0.527);
+}
+.dish-details-container .dish-content {
+  padding: 2em;
+}
+.dish-details-container .dish-content .dish-ingredients, .dish-details-container .dish-content .dish-procedure {
+  background-image: linear-gradient(90deg, rgba(247, 84, 84, 0.705), rgba(236, 190, 162, 0.158));
+  margin-bottom: 1em;
+  padding: 1em 2em 2em;
+  border-radius: 0.2em 1.5em 7em 1.5em;
+}
+.dish-details-container .dish-content .dish-ingredients h2, .dish-details-container .dish-content .dish-procedure h2 {
+  letter-spacing: 0.25em;
+  text-decoration: underline;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+.dish-details-container .dish-content .dish-ingredients ul, .dish-details-container .dish-content .dish-ingredients ol, .dish-details-container .dish-content .dish-procedure ul, .dish-details-container .dish-content .dish-procedure ol {
+  list-style-type: none;
+  font-size: 1.25em;
+}
+.dish-details-container .dish-content .dish-ingredients ul li, .dish-details-container .dish-content .dish-ingredients ol li, .dish-details-container .dish-content .dish-procedure ul li, .dish-details-container .dish-content .dish-procedure ol li {
+  margin-bottom: 0.8em;
 }
 
 .dropdown a {
@@ -997,4 +1099,29 @@ footer p hr {
 }
 .contacts-body-container main .contact-form .send-msg:active {
   border: inset 0.15em rgb(245, 138, 96);
+}
+
+.policy-container, .terms-container {
+  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+  padding: 2.5em 0 3em 0;
+}
+.policy-container h1, .terms-container h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.policy-container .policy-content, .policy-container .terms-content, .terms-container .policy-content, .terms-container .terms-content {
+  background-color: rgba(252, 175, 127, 0.5058823529);
+  margin: auto;
+  align-self: center;
+  width: 60%;
+  min-height: 50vh;
+  text-align: justify;
+  padding: 1.5em 5em;
+  border-radius: 1em 0 5em 3em;
+}
+.policy-container .policy-content li, .policy-container .terms-content li, .terms-container .policy-content li, .terms-container .terms-content li {
+  margin-bottom: 1em;
+  font-size: 1.25em;
 }/*# sourceMappingURL=style.css.map */

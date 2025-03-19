@@ -24,6 +24,15 @@
 }
 
 // reusable
+.back-to-cat {
+    padding: .2em 1em;
+    border-radius: 1em 0 0 1em;
+    font-size: 1.5em;
+    margin: .25em .75em;
+    // background-color: rgba(0, 0, 0, 0.705);
+    display: inline-block;
+    background-color: rgba(255, 68, 0, 0.747);
+}
 
 .img-slider {
     grid-column-start: 2;
@@ -116,7 +125,6 @@
         }
     }
 }
-
 
 header {
     min-height: 5em;
@@ -350,6 +358,8 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     padding: 1em;
+    cursor: pointer;
+    transition: all 500ms;
 
     &__cover-img {
         width: 89%;
@@ -378,6 +388,10 @@ footer {
             font-size: .75em;
             letter-spacing: .2em;
         }
+    }
+
+    &:hover {
+        transform: scale(1.05);
     }
 
 }
@@ -479,7 +493,6 @@ footer {
                 background-size: 100% 100%;
             }
         }
-    }
 
         aside {
             height: 100%;
@@ -491,6 +504,55 @@ footer {
             color: rgb(235, 238, 208);
             text-shadow: -6px 0 rgb(104, 32, 14);
         }
+    }
+
+    .home-showcase {
+        padding: 2em 1em;
+        gap: 1em;
+        display: grid;
+        grid-template-rows: 5fr 5fr;
+        border: 1px solid black;
+        min-height: 120vh;
+
+        .bahay {
+            background-image: url(assets/img/homebg1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: grid;
+            grid-template-columns: 4fr 6fr;
+
+            .bahay-desc {
+                text-align: justify;
+                padding: 1em;
+                font-weight: 600;
+                letter-spacing: .25em;
+                font-size: 1.5em;
+                color: white;
+                background-image: linear-gradient(to top left, rgb(1, 2, 87), rgba(0, 68, 255, 0.863));
+            }
+        }
+
+        .hapag {
+            background-image: url(assets/img/homebg2.jpg);
+            background-size: cover;
+            background-position: center;
+            display: grid;
+            grid-template-columns: 6fr 4fr;
+
+            .hapag-desc {
+                text-align: justify;
+                padding: 1em;
+                font-weight: 600;
+                letter-spacing: .25em;
+                font-size: 1.5em;
+                color: white;
+                background-image: linear-gradient(to bottom right, rgb(87, 1, 1), rgba(255, 51, 0, 0.678));
+            }
+            
+        }
+    }
+
 }
 
 // about page - ian
@@ -832,6 +894,67 @@ footer {
 
 }
 
+// dish-details page 
+
+.dish-details-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+
+    aside {
+
+        padding: 2em;
+        display: grid;
+        grid-template-rows: 1fr 9fr;
+
+        h1 {
+            text-align: center;
+            letter-spacing: .15em;
+            font-size: 2.75em;
+            text-decoration: underline;
+        }
+
+        img {
+            width: 100%;
+            height: 80vh;
+            object-fit: cover;
+            border-radius: 2em .2em;
+            border: 4px inset rgba(255, 214, 139, 0.527);
+
+        }
+    }
+
+    .dish-content {
+        padding: 2em;
+        
+       
+
+        .dish-ingredients, .dish-procedure {
+            background-image: linear-gradient(90deg, rgba(247, 84, 84, 0.705), rgba(236, 190, 162, 0.158));    
+            margin-bottom: 1em;
+            padding: 1em 2em 2em;
+            border-radius: .2em 1.5em 7em 1.5em;
+
+            h2 {
+                letter-spacing: .25em;
+                text-decoration: underline;
+                margin-bottom: 1em;
+                font-size: 2em;
+            }
+
+            ul, ol {
+                list-style-type: none;
+                font-size: 1.25em;
+
+                li {
+                    margin-bottom: .8em;
+                }
+            }
+            
+        }
+        
+    }
+  }
 // dropdown for categories by yours truly :p
 .dropdown a{
     display: block;
@@ -854,9 +977,7 @@ footer {
 .dropdown .content a:hover{
     background-color: #db6464;
 }
-
 // origins page - alejandre/mark
-
 .origins-page-container {
     display: grid;
 
@@ -1045,7 +1166,6 @@ footer {
         grid-template-columns: 6.5fr 3.5fr; 
     }
 }
-
 // contact page - done
 .contacts-body-container {
     background-image: url('assets/img/contact-us-bg.jpg');
@@ -1152,5 +1272,36 @@ footer {
                 }
             }
         } 
+    }
+}
+
+
+// privacy policy 
+
+.policy-container, .terms-container {
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    padding: 2.5em 0 3em 0;
+    
+    h1 {
+        font-size: 3em;
+        margin-bottom: .5em;
+    }
+
+    .policy-content, .terms-content {
+        background-color: #fcaf7f81;
+        margin: auto;
+        align-self: center;
+        width: 60%;
+        min-height: 50vh;
+        text-align: justify;
+        padding: 1.5em 5em;
+        border-radius: 1em 0 5em 3em;
+
+        li {
+            margin-bottom: 1em;
+            font-size: 1.25em;
+        }
     }
 }
