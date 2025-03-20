@@ -700,9 +700,20 @@ footer p hr {
   margin-bottom: 1em;
   font-size: 1.5em;
   font-weight: 500;
+  cursor: pointer;
+  transition: all 500ms;
 }
 #hall-of-fame .favorites-history ul li span {
   color: white;
+  transition: all 500ms;
+}
+#hall-of-fame .favorites-history ul li:hover {
+  text-shadow: #ffd103 2px 3px 5px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+#hall-of-fame .favorites-history ul li:hover span {
+  text-shadow: #ff0303 2px 3px 5px;
 }
 
 .new-cat-section {
