@@ -648,6 +648,7 @@ footer {
 #favorites {
     font-family: 'Kurale', serif;
     background: url('assets/img/favoritesBG1.png');
+    min-height: 85vh;
     max-height: 100vh;
     color: white;
     background-size: cover;
@@ -660,7 +661,7 @@ footer {
         z-index: 2;
         width: 50%;
         text-align: center;
-        padding: 2em 0 5em 0;
+        padding: 5em 0 5em 0;
 
         h2 {
             font-size: 7.5em;
@@ -1022,7 +1023,7 @@ footer {
         }
         p {
             text-align: center;
-            font-size: 1.25em;
+            font-size: clamp(1em, 2vw, 1.25em);
             letter-spacing: .25em;
             color: white;
             margin: 1em 0 0 0;    
@@ -1031,13 +1032,13 @@ footer {
             line-height: 1.5em;
         }
     }
-
+    
     .influence{
         color: white;
         text-align: justify;
-        font-size: 2.5em;
+        font-size: clamp(1.35em, 3vw, 2.75em);
         font-family: kurale;
-        margin-left: 2em;
+        margin: 0 2em;
         align-self: center;
     }
 
@@ -1059,14 +1060,7 @@ footer {
         }
     }
     
-    .influence{
-        color: white;
-        text-align: justify;
-        font-size: 2.5em;
-        font-family: kurale;
-        margin: 0 2em;
-        align-self: center;
-    }
+    
     
     .spanish{
         background-image: url('assets/img/sp-flag.jpg');
