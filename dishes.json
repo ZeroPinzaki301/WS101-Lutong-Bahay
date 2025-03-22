@@ -156,7 +156,7 @@
           "Simmer for 30-40 minutes or until the pork is tender.",
           "Season with salt and pepper, and serve hot."
         ],
-        "imgPath": "assets/dish-img/pork-dinuguan.jpg"
+        "imgPath": "assets/dish-img/pork-dinuguan.webp"
       },
       {
         "dishId": 7,
@@ -181,7 +181,7 @@
           "Cook for 10-15 minutes until the sauce thickens and the pork is tender.",
           "Season with salt and pepper, then serve."
         ],
-        "imgPath": "assets/dish-img/bicol-express.jpg"
+        "imgPath": "assets/dish-img/bicol-express.png"
       },
       {
         "dishId": 8,
@@ -242,7 +242,7 @@
           "Toss in the green peas and cook for another 2 minutes.",
           "Season with salt and pepper, then serve hot."
         ],
-        "imgPath": "assets/dish-img/pork-caldereta.jpg"
+        "imgPath": "assets/dish-img/pork-kaldereta.jpg"
       },
       {
         "dishId": 10,
@@ -436,7 +436,7 @@
           "Add the bell peppers and green peas, and cook for another 5 minutes.",
           "Season with salt and pepper, and serve with rice."
         ],
-        "imgPath": "assets/dish-img/chicken-afridata.jpg"
+        "imgPath": "assets/dish-img/chicken-afritada.jpg"
       },
       {
         "dishId": 17,
@@ -487,7 +487,7 @@
           "Season with salt and pepper to taste.",
           "Garnish with spring onions or leeks and serve hot."
         ],
-        "imgPath": "assets/dish-img/pinkpikan.jpg"
+        "imgPath": "assets/dish-img/pinikpikan.webp"
       },
       {
         "dishId": 19,
@@ -543,7 +543,7 @@
           "Stir in the evaporated milk and season with fish sauce, salt, and pepper.",
           "Simmer until the sauce thickens. Serve hot."
         ],
-        "imgPath": "assets/dish-img/pininyahan.jpg"
+        "imgPath": "assets/dish-img/pininyahan.avif"
       }
     ],
 
@@ -594,7 +594,7 @@
           "Add radish, eggplant, and green chilies. Simmer until vegetables are tender.",
           "Toss in the kangkong and season with salt and fish sauce. Serve hot."
         ],
-        "imgPath": "assets/dish-img/sinigang-bangus.jpg"
+        "imgPath": "assets/dish-img/sinigang-bangus.webp"
       },
       {
         "dishId": 23,
@@ -759,7 +759,7 @@
           "Cover and simmer over low heat until fish is cooked.",
           "Add green chilies and cook for another minute. Serve hot."
         ],
-        "imgPath": "assets/dish-img/bisugo-pangat.jpg"
+        "imgPath": "assets/dish-img/bisugo-pangat.PNG"
       },
       {
         "dishId": 30,
@@ -941,7 +941,7 @@
           "Heat oil in a pan and fry the eggplants until golden brown on both sides.",
           "Season with salt and pepper. Serve hot."
         ],
-        "imgPath": "assets/dish-img/tortang-talong.jpg"
+        "imgPath": "assets/dish-img/tortang-talong.png"
       },
       {
         "dishId": 38,
@@ -1005,7 +1005,7 @@
           "Pour water and simmer until tender.",
           "Season with salt. Serve hot."
         ],
-        "imgPath": "assets/dish-img/bulanglang-saluyot.jpg"
+        "imgPath": "assets/dish-img/bulanglang.avif"
       },
       {
         "dishId": 41,
@@ -1048,7 +1048,7 @@
           "Mix in boiled mung beans and season with fish sauce.",
           "Simmer until well combined. Add spinach or ampalaya leaves and cook until tender. Serve hot."
         ],
-        "imgPath": "assets/dish-img/ginisang-munggo.jpg"
+        "imgPath": "assets/dish-img/ginisang-mungo.jpg"
       }
     ],
 
@@ -1239,7 +1239,7 @@
           "Season with sugar, salt, and pepper.",
           "Serve over spaghetti noodles and top with grated cheese."
         ],
-        "imgPath": "assets/dish-img/pinoy-style-spaghetti.jpg"
+        "imgPath": "assets/dish-img/pinoy-style-spaghetti.webp"
       },
       {
         "dishId": 50,
@@ -1265,7 +1265,7 @@
           "Season with salt and pepper.",
           "Serve over spaghetti noodles, top with bacon and grated cheese."
         ],
-        "imgPath": "assets/dish-img/pinoy-carbonara.jpg"
+        "imgPath": "assets/dish-img/pinoy-carbonara.png"
       },
       {
         "dishId": 51,
@@ -1360,7 +1360,7 @@
           "Fry marinated beef until browned.",
           "Serve hot with rice and fried egg."
         ],
-        "imgPath": "assets/dish-img/beef-tapa.jpg"
+        "imgPath": "assets/dish-img/beef-tapa.png"
       },
       {
         "dishId": 55,
@@ -1477,7 +1477,7 @@
           "Mix in soy sauce and Worcestershire sauce. Simmer until thickened.",
           "Serve hot with a fried egg on top."
         ],
-        "imgPath": "assets/dish-img/beef-sizzling.jpg"
+        "imgPath": "assets/dish-img/beef-sizzling.png"
       },
       {
         "dishId": 60,
@@ -1526,7 +1526,7 @@
           "Mix in potato and carrot. Cook until vegetables are tender.",
           "Season with salt and pepper. Serve hot."
         ],
-        "imgPath": "assets/dish-img/beef-mechado.jpg"
+        "imgPath": "assets/dish-img/beef-mechado.png"
       },  
       {
         "dishId": 62,
@@ -1549,7 +1549,7 @@
           "Pour soy sauce, sugar, and beef broth. Add star anise. Simmer until beef is tender.",
           "Season with salt and pepper. Serve hot with rice and beef soup on the side."
         ],
-        "imgPath": "assets/dish-img/beef-pares.jpg"
+        "imgPath": "assets/dish-img/beef-pares.png"
       }            
     ],
 
@@ -1627,7 +1627,7 @@
           "Add green peppers and simmer for 10-15 minutes until the crabs are cooked and the sauce thickens.",
           "Serve with steamed rice."
         ],
-        "imgPath": "assets/dish-img/ginataang-alimango.jpg"
+        "imgPath": "assets/dish-img/ginataang-alimango.webp"
       },
       {
         "dishId": 66,
@@ -1716,7 +1716,7 @@
           "Heat oil in a pan and drop spoonfuls of the mixture into the hot oil. Fry until golden and crispy.",
           "Drain on paper towels and serve with vinegar dipping sauce."
         ],
-        "imgPath": "assets/dish-img/okoy-alamang.jpg"
+        "imgPath": "assets/dish-img/okoy-alamang.png"
       },
       {
         "dishId": 70,
@@ -1760,7 +1760,7 @@
           "Dip shrimp into the batter and fry in hot oil until golden and crispy.",
           "Drain on paper towels and serve with a dipping sauce (mayonnaise or sweet chili sauce)."
         ],
-        "imgPath": "assets/dish-img/camaron-rebosado.jpg"
+        "imgPath": "assets/dish-img/camaron-rebosado.webp"
       },
       {
         "dishId": 72,
@@ -1947,7 +1947,7 @@
           "Caramelize bananas with brown sugar until soft.",
           "Serve with crushed ice and drizzle with evaporated milk."
         ],
-        "imgPath": "assets/dish-img/banana-con-yelo.jpg"
+        "imgPath": "assets/dish-img/banana-con-yelo.png"
       },
       {
         "dishId": 82,
